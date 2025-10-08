@@ -83,7 +83,7 @@ date | time | species | count | district | coord | habitat | location | activity
 - **time**: `HH:MM` (24-h) or `H:MM AM/PM` (auto-normalized)
 - **species**: must **match** a `name` in `data_species.txt`
 - **coord**: decimal `-1.481, 124.846` **or** DMS/DM `N 01°28.717' E 124°53.518'`
-  - YYou can use any of these:
+  - You can use any of these:
   ```
   1.521583, 125.843583
   N 01°31.888' E 124°57.778'
