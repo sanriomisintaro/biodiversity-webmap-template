@@ -12,8 +12,8 @@ Everything runs on a free static site (GitHub Pages) — **no server, no databas
 - **Docs / How-to:** https://sanriomisintaro.github.io/biodiversity-webmap-template/docs/
 - **Get the blank template:** [`template/`](template/)  
 - **Converters (online):**
-  - CSV to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
-  - XLSX to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
+  - CSV to TXT: [csv-to-txt](tools/csv-to-txt/)
+  - XLSX to TXT: [xlsx-to-txt](tools/xlsx-to-txt/)
 
 ---
 ## What is this?
