@@ -1,7 +1,6 @@
-// assets/js/app.js
 document.addEventListener('DOMContentLoaded', () => {
   (async () => {
-  // ===== Default translations (fallback jika data_language.txt tidak lengkap) =====
+  // Default translations (fallback if data_language.txt not ready)
   const defaultTranslations = {
     en: {
       appTitle: "Wildlife Distribution Information", legendTitle: "Number of Sighting Points",
@@ -25,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // ===== Helpers umum =====
+  // Helpers
   async function loadText(path, {optional=false}={}) {
     try {
       const res = await fetch(path);
@@ -50,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     cur[keys[keys.length-1]] = value;
   }
-  // deep merge (simple)
+  // deep merge
   function deepMerge(dst, src) {
     for (const k of Object.keys(src)) {
       if (src[k] && typeof src[k] === 'object' && !Array.isArray(src[k])) {
@@ -70,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return def;
   }
 
-  // ===== Parse data_language.txt (INI-like) =====
+  // Parse data_language.txt
   function parseLanguageIni(text) {
     const langs = {};
     let current = null;
@@ -89,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return langs;
   }
 
-  // ===== Parse data_setting.txt (key=value) =====
+  // Parse data_setting.txt (key=value)
   function parseSettings(text) {
     const out = {};
     text.split(/\r?\n/).forEach(raw => {
@@ -121,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return out;
   }
 
-  // --- SPECIES: name | color | image ---
+  // SPECIES: name | color | image 
   function parseSpecies(text) {
     const lines = cleanLines(text);
     const species = [];
@@ -138,12 +137,12 @@ document.addEventListener('DOMContentLoaded', () => {
     return { species, color_map, image_map };
   }
 
-  // --- DMS → decimal ---
+  // Make DMS to decimal
   function dmsToDec(deg, min, hemi) {
     const dec = Number(deg) + Number(min) / 60;
     return (/^[SW]$/i.test(hemi)) ? -dec : dec;
   }
-  // --- Parser koordinat fleksibel ---
+  // Parser coord
   function parseCoordString(s) {
     if (!s) return null;
     const txt = s.replace(/\s+/g, ' ').trim();
@@ -166,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return null;
   }
 
-  // --- POINTS: 9 kolom ---
+  // POINTS: 9 kolom
   // Hari/Tanggal | Jam | Jenis | Jumlah Individu | Distrik | Titik Koordinat | Tipe Habitat | Lokasi | Aktivitas
   function parsePoints(text, knownSpecies) {
     const lines = cleanLines(text);
@@ -194,12 +193,12 @@ document.addEventListener('DOMContentLoaded', () => {
     return points;
   }
 
-  // ===== Load semua data =====
+  //  Load all datas
   const [speciesTxt, pointsTxt, langTxt, settingTxt] = await Promise.all([
     loadText('data/data_species.txt'),
     loadText('data/data_mappoints.txt'),
-    loadText('data/data_language.txt', {optional: true}), // optional
-    loadText('data/data_setting.txt',  {optional: true})   // <<== pakai nama SINGULAR
+    loadText('data/data_language.txt', {optional: true}),
+    loadText('data/data_setting.txt',  {optional: true}) 
     ]);
 
   const meta = parseSpecies(speciesTxt);
@@ -215,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Settings (dengan fallback default)
+  // Settings (with fallback default)
   const settings       = settingTxt ? parseSettings(settingTxt) : {};
   const initialZoom    = settings.scale ?? 12; // default 12 (≈1:180k)
   const initialTheme   = settings.theme ?? 'dark';
@@ -237,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   const roadOverlay = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_labels_under/{z}/{x}/{y}{r}.png', { attribution: '&copy; CARTO', maxZoom: 20 });
 
-  // Basemap helper + apply initial mapType
+  // Basemap helper and apply initial mapType
   let currentBaseLayer = baseLayers.default;
   function applyBaseLayer(type) {
     const target = baseLayers[type] || baseLayers.default;
@@ -247,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     currentBaseLayer.addTo(map);
 
-    // tombol aktif
+    // active button
     document.querySelectorAll('.map-type-btn').forEach(b => b.classList.remove('bg-white','text-indigo-600','shadow','dark:bg-gray-500'));
     const btn = document.querySelector(`.map-type-btn[data-map-type="${type}"]`);
     if (btn) btn.classList.add('bg-white','text-indigo-600','shadow','dark:bg-gray-500');
@@ -262,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let activeSpecies = {};
   meta.species.forEach(s => activeSpecies[s] = true);
 
-  // ===== Theme & Language initial from settings =====
+  // Theme & Language initial from settings
   document.documentElement.classList.toggle('dark', initialTheme === 'dark');
   const themeToggle = document.getElementById('theme-toggle');
   if (themeToggle) themeToggle.checked = (initialTheme === 'dark');
@@ -271,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const langToggle = document.getElementById('lang-toggle');
   if (langToggle) langToggle.checked = (currentLang === 'en');
 
-  // ===== Apply initial mapType / road / images from settings =====
+  // Apply initial mapType / road / images from settings
   applyBaseLayer(initialMapType);
 
   const roadToggle = document.getElementById('road-toggle');
@@ -285,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const imageToggle = document.getElementById('image-toggle');
   if (imageToggle) imageToggle.checked = !!showImages;
 
-  // ===== UI text =====
+  // UI text
   const updateUIText = () => {
     document.querySelectorAll('[data-lang]').forEach(el => {
       const key = el.dataset.lang;
@@ -304,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
     : (translations[currentLang]?.showAll || 'Show All');
   };
 
-  // ===== Marker & popup =====
+  // Marker & popup
   const updateMarkers = () => {
     markerLayer.clearLayers();
     const T = translations[currentLang]?.details || defaultTranslations[currentLang].details;
@@ -355,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  // ===== Legend =====
+  // Legend
   const updateLegend = () => {
     const legendContainer = document.getElementById('legend-items');
     legendContainer.innerHTML = '';
@@ -396,12 +395,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  // ===== Init UI =====
+  // Init UI
   updateUIText();
   updateMarkers();
   updateLegend();
 
-  // ===== Controls =====
+  // Controls 
   document.querySelectorAll('.map-type-btn').forEach(btn => {
     btn.onclick = () => applyBaseLayer(btn.dataset.mapType);
   });
@@ -440,7 +439,7 @@ document.addEventListener('DOMContentLoaded', () => {
     langToggle.onchange = (e) => { currentLang = e.target.checked ? 'en' : 'id'; updateUIText(); updateLegend(); updateMarkers(); };
   }
 
-  // Info panel (dan set dropdown ke zoom awal)
+  // Info panel (set dropdown to initial zoom)
   const infoLat = document.getElementById('info-lat'),
   infoLon = document.getElementById('info-lon'),
   infoZoom = document.getElementById('info-zoom');

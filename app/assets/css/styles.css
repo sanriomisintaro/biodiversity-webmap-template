@@ -1,4 +1,4 @@
-/* Custom styles for the app */
+/* Custom styles for webmap template */
 body { font-family: 'Inter', sans-serif; overflow: hidden; }
 .leaflet-popup-content-wrapper { font-family: 'Inter', sans-serif; }
 .leaflet-control-minimap { border: 2px solid #fff; box-shadow: 0 1px 5px rgba(0,0,0,0.4); border-radius: 8px; }
@@ -10,7 +10,7 @@ body { font-family: 'Inter', sans-serif; overflow: hidden; }
 .leaflet-tile-pane { filter: brightness(0.8) contrast(1.1); }
 html.dark .leaflet-tile-pane { filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7); }
 
-/* NEW, ROBUST TOGGLE SWITCH STYLES */
+/* TOGGLE SWITCH */
 .switch { position: relative; display: inline-block; width: 40px; height: 24px; }
 .switch input { opacity: 0; width: 0; height: 0; }
 .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #d1d5db; transition: .2s; }
@@ -22,7 +22,7 @@ input:checked + .slider:before { transform: translateX(16px); }
 .slider.round:before { border-radius: 50%; }
 html.dark .slider { background-color: #4b5563; }
 
-/* Production-ready Tailwind CSS (subset utilitas yang kamu pakai) */
+/* Tailwind CSS  */
 :root { --tw-border-opacity: 1; --tw-bg-opacity: 1; --tw-text-opacity: 1; }
 *,:after,:before { box-sizing: border-box; border: 0 solid #e5e7eb; }
 html { line-height: 1.5; -webkit-text-size-adjust: 100%; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; }
@@ -145,17 +145,14 @@ img { display: block; vertical-align: middle; max-width: 100%; height: auto; }
 .hover\:text-indigo-800:hover { --tw-text-opacity: 1; color: rgb(55 48 163/var(--tw-text-opacity)); }
 
 .legend-dot{
-  display: inline-block;     /* penting: bukan inline biasa */
-  width: 1rem;               /* = w-4 */
-  height: 1rem;              /* = h-4 (sama → bulat, bukan oval) */
-  border-radius: 9999px;     /* full circle */
-  border: 1px solid #ddd;    /* garis tipis biar jelas di light mode */
-  flex: 0 0 auto;            /* cegah stretched oleh flex */
+  display: inline-block;     
+  width: 1rem;              
+  height: 1rem;              
+  border-radius: 9999px;     /* full circle in legend*/
+  border: 1px solid #ddd;   
+  flex: 0 0 auto;            
 }
-html.dark .legend-dot{ border-color: #374151; } /* opsional: kontras di dark mode */
-
-
-
+html.dark .legend-dot{ border-color: #374151; }
 
 @media (min-width: 768px) {
   .md\:flex-1 { flex: 1 1 0%; }
