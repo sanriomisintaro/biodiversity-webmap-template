@@ -138,5 +138,5 @@ Guidance:
 
 You may reuse this tool. If you distribute it, keep attribution and this README.
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f)](https://sanriomisintaro.github.io/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f)](https://sanriomisintaro.github.io/biodiversity-webmap-template/app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
