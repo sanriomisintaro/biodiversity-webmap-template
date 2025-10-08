@@ -7,7 +7,7 @@ Everything runs on a free static site (GitHub Pages) — **no server, no databas
 [![Docs](https://img.shields.io/badge/Docs-How%20to%20use-informational)](https://sanriomisintaro.github.io/biodiversity-webmap-template/docs/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
 
-## 🚀 Quick access
+## Quick access
 - **Live map app:** https://sanriomisintaro.github.io/biodiversity-webmap-template/app/
 - **Docs / How-to:** https://sanriomisintaro.github.io/biodiversity-webmap-template/docs/
 - **Get the blank template:** [`template/`](template/)  
@@ -30,11 +30,11 @@ You can edit these files with any text editor or export them from spreadsheets v
 ---
 
 ## Features
-- 🗺️ Interactive map with base-layer switcher (default / satellite / terrain)
-- 🐦 Per-species toggles, **count-aware** legend, optional photo markers
-- 🧭 Mixed coordinate strings supported (decimal, DMS/DM like `N 01°28.717'`)
+- Interactive map with base-layer switcher (default / satellite / terrain)
+- Per-species toggles, **count-aware** legend, optional photo markers
+- Mixed coordinate strings supported (decimal, DMS/DM like `N 01°28.717'`)
 - 🇮🇩/🇬🇧 Bilingual UI (e.g., `[id]` and `[en]` blocks in `data_language.txt`)
-- 🧾 Fully static: works on GitHub Pages; versionable & citable
+- Fully static: works on GitHub Pages; versionable & citable
 
 ---
 
@@ -141,8 +141,11 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
 ---
 
 ## When to use (and when not)
-- ✅ DO: Teaching, outreach, class projects, small NGO/lab datasets (hundreds → few thousands of points)
-- ❎ DONT: If you need multi-user data entry, user accounts, advanced queries, or millions of points → consider a server-backed platform; this app can be a **stepping-stone**.
+- DO:
+  - Teaching, outreach, class projects, small NGO/lab datasets (hundreds → few thousands of points)
+    
+- DONT:
+  - If you need multi-user data entry, user accounts, advanced queries, or millions of points → consider a server-backed platform; this app can be a **stepping-stone**.
 
 ---
 
