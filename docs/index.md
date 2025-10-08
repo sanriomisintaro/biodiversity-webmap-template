@@ -28,8 +28,8 @@ Publish species-occurrence maps from plain text files — no server, no database
 3. Move the downloaded **`data_mappoints.txt`** to **`app/data/`**.
 
 **Publish on GitHub Pages**
-1. Push to GitHub → **Settings → Pages**.  
-2. Source: *Deploy from a branch* → **Branch:** `main`, **Folder:** `/ (root)`  
+1. Push to GitHub > **Settings > Pages**.  
+2. Source: *Deploy from a branch* > **Branch:** `main`, **Folder:** `/ (root)`  
 3. Your site: `https://sanriomisintaro.github.io/biodiversity-webmap-template/`
 
 ---
@@ -144,10 +144,10 @@ showRoad = 1 # 0=show road labels, 1=hide labels
 ---
 ##Converters (details)
 
-CSV → TXT: detects Indonesian/English headers, normalizes dates/times, previews, then downloads data_mappoints.txt.
+CSV to TXT: detects Indonesian/English headers, normalizes dates/times, previews, then downloads data_mappoints.txt.
 [Open:](https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/)
 
-XLSX → TXT: supports multi-sheet workbooks, header synonyms, date/time normalization, preview, download.
+XLSX to TXT: supports multi-sheet workbooks, header synonyms, date/time normalization, preview, download.
 [Open:](https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/)
 
 Both run entirely in your browser (no upload).

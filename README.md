@@ -12,8 +12,8 @@ Everything runs on a free static site (GitHub Pages) — **no server, no databas
 - **Docs / How-to:** https://sanriomisintaro.github.io/biodiversity-webmap-template/docs/
 - **Get the blank template:** [`template/`](template/)  
 - **Converters (online):**
-  - CSV → TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
-  - XLSX → TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
+  - CSV to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
+  - XLSX to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
 
 ---
 ## What is this?
@@ -122,24 +122,24 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
 3. Open `app/index.html` locally (or publish on Pages).
 
 ### Option B — Convert your spreadsheet first
-- Use **CSV → TXT** or **XLSX → TXT** online:
+- Use **CSV > TXT** or **XLSX > TXT** online:
   - CSV: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
   - XLSX: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
 - Move the downloaded `data_mappoints.txt` into `app/data/`.
 
 ### Publish on GitHub Pages
 1. Push this repo to GitHub.  
-2. **Settings → Pages** → *Deploy from a branch* → **Branch:** `main`, **Folder:** `/ (root)`  
+2. **Settings > Pages** > *Deploy from a branch* > **Branch:** `main`, **Folder:** `/ (root)`  
 3. Your site will be at:  
    `https://sanriomisintaro.github.io/biodiversity-webmap-template/`
 
 ---
 ## When to use (and when not)
 - DO:
-  - Teaching, outreach, class projects, small NGO/lab datasets (hundreds → few thousands of points)
+  - Teaching, outreach, class projects, small NGO/lab datasets (hundreds > few thousands of points)
     
 - DONT:
-  - If you need multi-user data entry, user accounts, advanced queries, or millions of points → consider a server-backed platform; this app can be a **stepping-stone**.
+  - If you need multi-user data entry, user accounts, advanced queries, or millions of points > consider a server-backed platform; this app can be a **stepping-stone**.
 
 ---
 

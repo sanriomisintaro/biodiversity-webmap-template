@@ -22,7 +22,7 @@ used by the biodiversity web map template.
 
 1. Open **`index.html`** in a modern browser (Chrome/Edge).
 2. Click **Choose file** and select your `.csv`.
-3. Click **Convert → TXT**.  
+3. Click **Convert to TXT**.  
    You’ll see a preview, and your browser downloads **`data_mappoints.txt`**.
 
 **Optional screenshots** (add PNGs to `tools/csv-to-txt/images/` with these names):
@@ -97,11 +97,11 @@ Move the downloaded file to your app as **`app/data/data_mappoints.txt`**.
 
 ## Troubleshooting
 
-- **“No header row found”** → Ensure the first line contains column names.  
-- **“Missing columns: …”** → Rename headers to accepted synonyms (see list).  
-- **Preview shows 0 lines** → All rows were empty or lacked **Species** or **Coord**.  
-- **Weird characters (�)** → Re-export the CSV as **UTF-8**.  
-- **No points on the map** → In your web app, *species* names must match `data_species.txt`.
+- **“No header row found”** > Ensure the first line contains column names.  
+- **“Missing columns: …”** > Rename headers to accepted synonyms (see list).  
+- **Preview shows 0 lines** > All rows were empty or lacked **Species** or **Coord**.  
+- **Weird characters (�)** > Re-export the CSV as **UTF-8**.  
+- **No points on the map** > In your web app, *species* names must match `data_species.txt`.
 
 ---
 

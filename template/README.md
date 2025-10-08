@@ -121,16 +121,16 @@ Guidance:
 ## Publishing
 
 - **Local:** double-click `index.html` (some browsers block local file access; if so, use a simple local server).
-- **GitHub Pages:** push this folder to a repo → *Settings → Pages* → **Deploy from branch** → pick your default branch and **root** (`/`). Your site will be live at `<username>.github.io/<repo>/`.
+- **GitHub Pages:** push this folder to a repo > *Settings > Pages* > **Deploy from branch** > pick your default branch and **root** (`/`). Your site will be live at `<username>.github.io/<repo>/`.
 
 ---
 
 ## Troubleshooting
 
-- **Blank map / no points** → check that `data_mappoints.txt` has at least one row and the **species names match** `data_species.txt`.  
-- **Colors not applied** → verify HEX codes (e.g., `#4daf4a`).  
-- **Images not showing** → confirm the path (e.g., `images/Jalak.jpg`) and file name spelling.  
-- **Settings not applied** → ensure `key = value` formatting with no extra characters.
+- **Blank map / no points** > check that `data_mappoints.txt` has at least one row and the **species names match** `data_species.txt`.  
+- **Colors not applied** > verify HEX codes (e.g., `#4daf4a`).  
+- **Images not showing** > confirm the path (e.g., `images/Jalak.jpg`) and file name spelling.  
+- **Settings not applied** > ensure `key = value` formatting with no extra characters.
 
 ---
 

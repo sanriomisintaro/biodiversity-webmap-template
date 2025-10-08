@@ -20,7 +20,7 @@ Convert an Excel sheet (XLSX/XLS) into the **pipe-separated** text file
 1. Open **`index.html`** in a modern browser (Chrome/Edge).
 2. Click **Choose file** and select your `.xlsx` / `.xls`.
 3. Pick the **worksheet** (if there are multiple).
-4. Click **Convert → TXT**.  
+4. Click **Convert to TXT**.  
    You’ll see a preview (first 10 lines) and your browser downloads **`data_mappoints.txt`**.
 
 **Screenshots (add these to `images/` and keep the same names):**
@@ -78,10 +78,10 @@ Save the downloaded file as **`app/data/data_mappoints.txt`** in your web map.
 
 ## Troubleshooting
 
-- **“Missing columns: …”** → Adjust your header row to include all required columns (see table above).  
-- **Preview shows 0 lines** → All rows were empty or lacked Species/Coord. Check your data.  
-- **Weird dates/times** → Cells formatted oddly in Excel may export as text. Try converting to proper date/time in Excel, or let the tool normalize common formats.  
-- **No internet** → Download `xlsx.full.min.js` and reference it locally in `index.html`.
+- **“Missing columns: …”** > Adjust your header row to include all required columns (see table above).  
+- **Preview shows 0 lines** > All rows were empty or lacked Species/Coord. Check your data.  
+- **Weird dates/times** > Cells formatted oddly in Excel may export as text. Try converting to proper date/time in Excel, or let the tool normalize common formats.  
+- **No internet** > Download `xlsx.full.min.js` and reference it locally in `index.html`.
 
 ---
 
