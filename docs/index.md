@@ -4,8 +4,9 @@ Publish species-occurrence maps from plain text files — no server, no database
 
 **Use it online**
 - App: https://sanriomisintaro.github.io/biodiversity-webmap-template/app/
-- CSV → TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
-- XLSX → TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/
+- Tools:
+  - CSV to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
+  - XLSX to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/
 
 **Repo**
 - Root README: [../](../)
