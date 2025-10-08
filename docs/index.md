@@ -12,7 +12,6 @@ Publish species-occurrence maps from plain text files — no server, no database
 - Blank template: [../template/](../template/)
 
 ---
-
 ## Quick start
 
 **Option A — Start blank (fastest)**
@@ -23,8 +22,8 @@ Publish species-occurrence maps from plain text files — no server, no database
 **Option B — Convert your spreadsheet**
 1. Export your table as **CSV** or use your **XLSX** file directly.
 2. Convert online:
-   - CSV → TXT: **[tools/csv-to-txt](../tools/csv-to-txt/)**  
-   - XLSX → TXT: **[tools/xlxs-to-txt](../tools/xlxs-to-txt/)**
+   - CSV to TXT: **[tools/csv-to-txt](../tools/csv-to-txt/)**  
+   - XLSX to TXT: **[tools/xlxs-to-txt](../tools/xlxs-to-txt/)**
 3. Move the downloaded **`data_mappoints.txt`** to **`app/data/`**.
 
 **Publish on GitHub Pages**
@@ -113,7 +112,6 @@ Common keys: `appTitle`, `legendTitle`, `mapDefault`, `mapSatellite`,
 `details.date`, `details.time`, `details.count`, `details.coord`, `gmapsButton`, etc.
 
 ---
-
 ### 4) `data_setting.txt`
 Key = value lines controlling defaults:
 ```
@@ -126,7 +124,6 @@ showRoad = 1 # 0=show road labels, 1=hide labels
 ```
 
 ---
-
 ## Tips
 
 - Keep images ≤200–400 KB each for faster loads.
@@ -138,7 +135,6 @@ showRoad = 1 # 0=show road labels, 1=hide labels
   # then open http://localhost:8000/app/
 
 ---
-
 ##Converters (details)
 
 CSV → TXT: detects Indonesian/English headers, normalizes dates/times, previews, then downloads data_mappoints.txt.
@@ -150,13 +146,11 @@ XLSX → TXT: supports multi-sheet workbooks, header synonyms, date/time normali
 Both run entirely in your browser (no upload).
 
 ---
-
 ## Sensitive species
 If needed, generalize or mask coordinates **before** publishing (e.g., round to 0.01° or remove precise sites).
 **Please** never publish the exact locations of sensitive taxa. We mean it, especially for endangered and protected taxa.
 
 ---
-
 ## Troubleshooting
 - Problem: **No points on map**, do: `species` values in `data_mappoints.txt` must match `name` in `data_species.txt`.  
 - Problem: **Broken images**, do: check the path (e.g., `images/Jalak.jpg`) and filename case.  
@@ -170,17 +164,14 @@ If needed, generalize or mask coordinates **before** publishing (e.g., round to 
   - if you dont have python, use any local web server.
 
 ---
-
 ## Cite / credit
-If you use this template in a publication or report, please cite the repository and (if available) the archived release DOI.
-(not ready yet to cite)
-
+If you use this template in a publication or report, please cite the repository and the archived release DOI (if available) .
+- **Citation:** check CITATION.cff in root
+  - Please keep required **basemap attributions** visible in the map UI.
+    
 ---
-
 ## License
 - **Code:** MIT (permissive; see [LICENSE](LICENSE))  
-- **Your data/images:** choose an appropriate license (e.g., CC BY 4.0).  
-- Please keep required **basemap attributions** visible in the map UI.
 
 ---
 
