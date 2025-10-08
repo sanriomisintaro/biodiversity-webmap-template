@@ -24,7 +24,14 @@ A **low-infrastructure** method for small biodiversity teams (labs, NGOs, classe
 - `data_language.txt` – UI labels (e.g., Indonesian + English)  
 - `data_setting.txt` – map defaults (zoom, theme, basemap, etc.)
 
-You can edit these files with any text editor or export them from spreadsheets via the built-in converters.
+You can edit all four files with any text editor or export them from spreadsheets via the built-in converters. To make something like this:
+![WebMap](docs/img/Figure-2-Interactive-species-occurrence-web-map-for-Manado.png)
+
+Its also come with detail, if you click on one point to pop up detail for single observation:
+![PopUp](docs/img/Figure-3-Pop-up-detail-for-a-single-observation.png)
+
+Its quite easy to follow, you just edited (or add) datas within four .txt files and its finish, just like that. You can put it in github pages (for free) or in your hosting without more resource (no need for databases) or you can also run in in your local server.
+![Concept](docs/img/Figure-1.png)
 
 ---
 ## Features
