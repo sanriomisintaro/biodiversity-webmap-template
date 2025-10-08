@@ -16,7 +16,6 @@ Everything runs on a free static site (GitHub Pages) — **no server, no databas
   - XLSX → TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
 
 ---
-
 ## What is this?
 A **low-infrastructure** method for small biodiversity teams (labs, NGOs, classes) to publish species observations as an interactive web map. The app reads **four plain-text files** at load time:
 
@@ -28,7 +27,6 @@ A **low-infrastructure** method for small biodiversity teams (labs, NGOs, classe
 You can edit these files with any text editor or export them from spreadsheets via the built-in converters.
 
 ---
-
 ## Features
 - Interactive map with base-layer switcher (default / satellite / terrain)
 - Per-species toggles, **count-aware** legend, optional photo markers
@@ -37,7 +35,6 @@ You can edit these files with any text editor or export them from spreadsheets v
 - Fully static: works on GitHub Pages; versionable & citable
 
 ---
-
 ## Repository structure
 ```
 app/
@@ -59,7 +56,6 @@ xlsx-to-txt/ # XLSX converter (browser-based)
 ```
 
 ---
-
 ## File formats (quick reference)
 
 ### `app/data/data_species.txt`
@@ -118,7 +114,6 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
 > Full details and screenshots: see **Docs**.
 
 ---
-
 ## How to use
 
 ### Option A — Start from the **blank template**
@@ -132,14 +127,7 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
   - XLSX: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
 - Move the downloaded `data_mappoints.txt` into `app/data/`.
 
-### Publish on GitHub Pages
-1. Push this repo to GitHub.  
-2. **Settings → Pages** → *Deploy from a branch* → **Branch:** `main`, **Folder:** `/ (root)`  
-3. Your site will be at:  
-   `https://sanriomisintaro.github.io/biodiversity-webmap-template/`
-
 ---
-
 ## When to use (and when not)
 - DO:
   - Teaching, outreach, class projects, small NGO/lab datasets (hundreds → few thousands of points)
@@ -148,26 +136,22 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
   - If you need multi-user data entry, user accounts, advanced queries, or millions of points → consider a server-backed platform; this app can be a **stepping-stone**.
 
 ---
-
 ## Cite / credit
 If you use this template in a publication or report, please cite the repository and (if available) the archived release DOI.
 (not ready yet to cite)
 
 ---
-
 ## License
 - **Code:** MIT (permissive; see [LICENSE](LICENSE))  
 - **Your data/images:** choose an appropriate license (e.g., CC BY 4.0).  
 - Please keep required **basemap attributions** visible in the map UI.
 
 ---
-
 ## Sensitive species
 If needed, generalize or mask coordinates **before** publishing (e.g., round to 0.01° or remove precise sites).
 **Please** never publish the exact locations of sensitive taxa. We mean it, especially for endangered and protected taxa.
 
 ---
-
 ## Troubleshooting
 - Problem: **No points on map**, do: `species` values in `data_mappoints.txt` must match `name` in `data_species.txt`.  
 - Problem: **Broken images**, do: check the path (e.g., `images/Jalak.jpg`) and filename case.  
@@ -181,7 +165,6 @@ If needed, generalize or mask coordinates **before** publishing (e.g., round to 
   - if you dont have python, use any local web server.
 
 ---
-
 ## Acknowledgements
 Built with lightweight web tech (vanilla HTML/CSS/JS).
 Map tiles from OpenStreetMap / imagery providers as configured in the app.
