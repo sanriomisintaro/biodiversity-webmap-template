@@ -33,7 +33,6 @@ Publish species-occurrence maps from plain text files — no server, no database
 3. Your site: `https://sanriomisintaro.github.io/biodiversity-webmap-template/`
 
 ---
-
 ## Folder structure
 ```
 app/
@@ -55,7 +54,6 @@ template/ # blank starter you can copy
 ```
 
 ---
-
 ## Data files (specs & examples)
 
 ### 1) `data_species.txt`
@@ -73,7 +71,6 @@ Perkutut Jawa (Geopelia striata) | #377eb8 | images/PerkututJawa.jpg
 ```
 
 ---
-
 ### 2) `data_mappoints.txt`
 Pipe-separated, **9 columns in this exact order**:
 ```
@@ -83,11 +80,21 @@ date | time | species | count | district | coord | habitat | location | activity
 - **time**: `HH:MM` (24-h) or `H:MM AM/PM` (auto-normalized)
 - **species**: must **match** a `name` in `data_species.txt`
 - **coord**: decimal `-1.481, 124.846` **or** DMS/DM `N 01°28.717' E 124°53.518'`
-  - You can use any of these:
+  - Here is the sample of the map points:
   ```
-  1.521583, 125.843583
-  N 01°31.888' E 124°57.778'
-  Lat: 1.4633916 Long: 124.8291702 
+  Lat: 1.462464 Long: 124.8288725
+  Lat: 1.4633916 Long: 124.8291702
+  Lat. 1.4522652 Long: 124.8126668
+  Lat. 1.4423147 Long: 124.8115926
+  N 01°31.359' E 124°56.045'
+  N 01°31.530' E 124°56.353'
+  N 01°31.714' E 124°56.798'
+  N 01°31.703' E 124°56.765'
+  1.461350, 124.930250
+  1.461300, 124.930317
+  1.460100, 124.931717
+  1.439050, 124.968500
+
   ```
 
 **Example**
@@ -96,7 +103,6 @@ date | time | species | count | district | coord | habitat | location | activity
 ```
 
 ---
-
 ### 3) `data_language.txt`
 INI-style blocks + `key=value` pairs. Unknown keys are ignored.
 
