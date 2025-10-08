@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>your.xlxs to data_mappoints.txt</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body{font-family:system-ui,Arial,sans-serif;margin:24px}
+  h1{font-size:1.25rem;margin:0 0 8px}
+  .box{border:1px solid #ddd;padding:16px;border-radius:8px;max-width:800px}
+  label{display:block;margin:12px 0 6px}
+  input,select,button{font-size:1rem;padding:8px}
+  .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+  .muted{font-size:.9rem;color:#666}
+  .ok{color:green}.warn{color:#b45309}.err{color:#c00}
+  table{border-collapse:collapse;margin-top:12px;font-size:.95rem}
+  td,th{border:1px solid #eee;padding:6px 8px}
+  .preview{max-height:200px;overflow:auto;border:1px dashed #ddd}
+</style>
+
+<body>
+  <h1>your.xlxs to <code>data_mappoints.txt</code></h1>
+  <div class="box">
+    <p>Upload an Excel file (.xlsx / .xls). The sheet must have a header row.
+      The tool will export a pipe-separated text file in this exact order:</p>
+    <ol>
+      <li>Hari/Tanggal (Date)</li>
+      <li>Jam (Time)</li>
+      <li>Jenis (Species)</li>
+      <li>Jumlah Individu (Count)</li>
+      <li>Distrik (District)</li>
+      <li>Titik Koordinat (Coord)</li>
+      <li>Tipe Habitat (Habitat)</li>
+      <li>Lokasi (Location)</li>
+      <li>Aktivitas (Activity)</li>
+    </ol>
+
+    <div class="row">
+      <input type="file" id="file" accept=".xlsx,.xls,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel">
+      <select id="sheet" hidden></select>
+      <button id="convert" disabled>Convert → TXT</button>
+    </div>
+    <p class="muted">Accepted header synonyms (case-insensitive) include Indonesian & English (e.g., <em>Tanggal</em>/<em>Date</em>, <em>Jam</em>/<em>Time</em>, <em>Jenis</em>/<em>Species</em>, <em>Jumlah Individu</em>/<em>Count</em>, <em>Distrik</em>/<em>District</em>, <em>Koordinat</em>/<em>Coordinate</em>, etc.).</p>
+    <div id="status" class="muted"></div>
+
+    <div class="preview" id="preview" hidden></div>
+  </div>
+
+  <!-- SheetJS (XLSX parser). If you prefer, download this file and serve locally from /etc/xlxstotxt/xlsx.full.min.js -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script>
+  (function(){
+    const fileEl = document.getElementById('file');
+    const sheetEl = document.getElementById('sheet');
+    const convertBtn = document.getElementById('convert');
+    const statusEl = document.getElementById('status');
+    const previewEl = document.getElementById('preview');
+
+    // Expected output order and header synonyms
+    const ORDER = ['date','time','species','count','district','coord','habitat','location','activity'];
+    const SYN = {
+      date:     ['tanggal','hari/tanggal','date','tgl','hari tanggal'],
+      time:     ['jam','waktu','time','pukul'],
+      species:  ['jenis','spesies','species','taxon','nama jenis','scientific name','common name'],
+      count:    ['jumlah individu','jumlah','count','abundance','n','number'],
+      district: ['distrik','kecamatan','district','desa/kelurahan','village'],
+      coord:    ['titik koordinat','koordinat','coord','coordinate','coordinates','lat long','lat/long','latitude longitude','gps'],
+      habitat:  ['tipe habitat','habitat','habitat type'],
+      location: ['lokasi','site','micro-site','micro site','spot'],
+      activity: ['aktivitas','activity','behavior','behaviour']
+    };
+
+    let WORKBOOK;
+
+    fileEl.addEventListener('change', async () => {
+      resetUI();
+      const f = fileEl.files[0];
+      if(!f){return;}
+      try{
+        status('Reading file …');
+        const buf = await f.arrayBuffer();
+        WORKBOOK = XLSX.read(buf, {cellDates:true, cellText:false});
+        sheetEl.innerHTML = '';
+        WORKBOOK.SheetNames.forEach((n,i)=>{
+          const opt = document.createElement('option');
+          opt.value = n; opt.textContent = `${i+1}. ${n}`;
+          sheetEl.appendChild(opt);
+        });
+        sheetEl.hidden = false;
+        convertBtn.disabled = false;
+        status(`Loaded ${WORKBOOK.SheetNames.length} sheet(s). Choose one and click Convert.`, 'ok');
+      }catch(err){
+        status('Failed to read workbook: '+err.message, 'err');
+      }
+    });
+
+    convertBtn.addEventListener('click', () => {
+      if(!WORKBOOK){return;}
+      const name = sheetEl.value || WORKBOOK.SheetNames[0];
+      const sheet = WORKBOOK.Sheets[name];
+      if(!sheet){return status('Selected sheet not found.', 'err');}
+      // Read as array of arrays to get header row verbatim
+      const aoa = XLSX.utils.sheet_to_json(sheet, {header:1, defval:''});
+      if(!aoa.length) return status('Sheet is empty.', 'err');
+      const header = aoa[0].map(h => String(h).trim());
+      const map = autoMap(header);
+      const missing = ORDER.filter(k => map[k] === -1);
+      if(missing.length){
+        return status('Missing columns: '+missing.join(', ')+'. Please adjust your header row.', 'err');
+      }
+
+      const rows = aoa.slice(1).filter(r => r.some(v => String(v).trim() !== ''));
+      if(!rows.length) return status('No data rows found beneath the header.', 'warn');
+
+      // Build output
+      const outLines = [];
+      for(const r of rows){
+        const vals = ORDER.map(k => cleanCell(r[ map[k] ], k));
+        // skip rows that have no species or coord
+        if(!vals[2] || !vals[5]) continue;
+        outLines.push(vals.join(' | '));
+      }
+      if(!outLines.length) return status('All rows were empty or invalid (need Species and Coord).', 'warn');
+
+      // Show preview (first 10 lines)
+      const sample = outLines.slice(0,10).map((l,i)=>`${i+1}. ${l}`).join('<br>');
+      previewEl.innerHTML = `<table><tr><th>Preview (first ${Math.min(10,outLines.length)} of ${outLines.length} lines)</th></tr><tr><td style="white-space:pre">${sample}</td></tr></table>`;
+      previewEl.hidden = false;
+
+      // Download file
+      const blob = new Blob([outLines.join('\n')], {type:'text/plain'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'data_mappoints.txt';
+      a.click();
+      status('Done. Downloaded data_mappoints.txt', 'ok');
+    });
+
+    function autoMap(headers){
+      // returns object key -> index
+      const low = headers.map(h => normalizeHeader(h));
+      const map = {};
+      for(const key of ORDER){
+        map[key] = findIndex(low, SYN[key]);
+      }
+      return map;
+    }
+    function findIndex(lowHeaders, synonyms){
+      for(let i=0;i<lowHeaders.length;i++){
+        const h = lowHeaders[i];
+        if(!h) continue;
+        for(const syn of synonyms){
+          const s = normalizeHeader(syn);
+          // exact or contains (handles "Latitude, Longitude" etc.)
+          if(h === s || h.includes(s) || s.includes(h)) return i;
+        }
+      }
+      return -1;
+    }
+    function normalizeHeader(s){
+      return String(s).toLowerCase()
+        .replace(/_/g,' ')
+        .replace(/\s+/g,' ')
+        .replace(/[^\w\s/.-]/g,'') // keep slash/dot/dash
+        .trim();
+    }
+    function cleanCell(v, key){
+      if(v == null) return '';
+      // If SheetJS gave us a Date object
+      if(v instanceof Date){
+        if(key === 'time') return toHHMM(v);
+        return toYYYYMMDD(v);
+      }
+      // If numeric, it might be an Excel serial (date/time)
+      if(typeof v === 'number'){
+        // Excel stores days since 1899-12-30; fractional part is time
+        const date = excelSerialToDate(v);
+        if(key === 'time'){
+          return toHHMM(date);
+        }else if(key === 'date'){
+          return toYYYYMMDD(date);
+        }else{
+          // non-date field but numeric: stringify as-is
+          return String(v);
+        }
+      }
+      // Otherwise string: trim & sanitize
+      let s = String(v).trim();
+      // If date/time fields look like Excel-style strings, try to normalize
+      if(key === 'date'){
+        const d = parseLooseDate(s);
+        if(d) return toYYYYMMDD(d);
+      }
+      if(key === 'time'){
+        const t = parseLooseTime(s);
+        if(t) return t;
+      }
+      // remove newlines and the pipe delimiter
+      s = s.replace(/\r?\n/g,' ').replace(/\|/g,'/');
+      return s;
+    }
+    function excelSerialToDate(serial){
+      const utc_days = Math.floor(serial - 25569);
+      const utc_value = utc_days * 86400; // seconds
+      const date_info = new Date(utc_value * 1000);
+      // add fractional day as time
+      const fractional = serial - Math.floor(serial);
+      const ms = Math.round(fractional * 24 * 60 * 60 * 1000);
+      return new Date(date_info.getTime() + ms);
+    }
+    function toYYYYMMDD(d){
+      const y = d.getFullYear();
+      const m = String(d.getMonth()+1).padStart(2,'0');
+      const day = String(d.getDate()).padStart(2,'0');
+      return `${y}-${m}-${day}`;
+    }
+    function toHHMM(d){
+      const h = String(d.getHours()).padStart(2,'0');
+      const m = String(d.getMinutes()).padStart(2,'0');
+      return `${h}:${m}`;
+    }
+    function parseLooseDate(s){
+      // Accept DD/MM/YYYY, MM/DD/YYYY, YYYY-MM-DD, DD-MM-YYYY
+      const a = s.match(/^(\d{4})[\/\-](\d{1,2})[\/\-](\d{1,2})$/);
+      if(a){ return new Date(Number(a[1]), Number(a[2])-1, Number(a[3])); }
+      const b = s.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})$/);
+      if(b){
+        // assume DD/MM/YYYY (common in ID)
+        const d = Number(b[1]), m = Number(b[2]), y = Number(b[3]);
+        return new Date(y, m-1, d);
+      }
+      return null;
+      }
+    function parseLooseTime(s){
+      // Accept HH:MM or H:MM AM/PM
+      const a = s.match(/^(\d{1,2}):(\d{2})(?:\s*([AaPp][Mm]))?$/);
+      if(!a) return null;
+      let hh = Number(a[1]), mm = Number(a[2]);
+      const ap = a[3];
+      if(ap){
+        const pm = /^[Pp]/.test(ap);
+        if(hh === 12){ hh = pm ? 12 : 0; }
+        else if(pm){ hh += 12; }
+      }
+      if(hh<0||hh>23||mm<0||mm>59) return null;
+      return `${String(hh).padStart(2,'0')}:${String(mm).padStart(2,'0')}`;
+    }
+    function status(msg, kind){
+      statusEl.textContent = msg;
+      statusEl.className = kind ? kind : '';
+    }
+    function resetUI(){
+      sheetEl.hidden = true;
+      previewEl.hidden = true;
+      status('');
+    }
+  })();
+  </script>
+</body>
+</html>

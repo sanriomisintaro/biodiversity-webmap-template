@@ -1,0 +1,49 @@
+Kamis, 21 Agustus 2025 | 05:34 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Ringroad | N 01°28.717' E 124°53.518' | Semak | Ranting | Terbang
+Kamis, 21 Agustus 2025 | 05:52 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Ringroad | N 01°32.100' E 124°54.749' | Hutan Pertanian | Cabang | Istirahat
+Kamis, 21 Agustus 2025 | 06:10 | Perkutut Jawa (Geopelia striata) | 3 | GPI | N 01°32.100' E 124°54.765' | Hutan Pertanian | Permukaan Tanah | Bergerak
+Kamis, 21 Agustus 2025 | 06:27 | Cucak Kutilang (Pycnonotus aurigaster) | 4 | GPI | N 01°32.101' E 124°54.762' | Pemukiman | Ranting | Menelisik
+Kamis, 21 Agustus 2025 | 06:40 | Cucak Kutilang (Pycnonotus aurigaster) | 5 | GPI | N 01°32.092' E 124°54.646' | Pemukiman | Ranting | Istirahat
+Kamis, 21 Agustus 2025 | 06:50 | Jalak (Acridotheres javanicus) | 6 | GPI | N 01°32.207' E 124°54.563' | Pemukiman | Cabang | Bergerak
+Jumat, 22 Agustus 2025 | 05:14 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Mapanget | N 01°30.608' E 124°54.640' | Pemukiman | Cabang | Istirahat
+Jumat, 22 Agustus 2025 | 05:30 | Jalak (Acridotheres javanicus) | 8 | Mapanget | N 01°30.668' E 124°54.754' | Pemukiman | Permukaan Tanah | Makan
+Jumat, 22 Agustus 2025 | 05:40 | Cucak Kutilang (Pycnonotus aurigaster) | 9 | Mapanget | N 01°30.765' E 124°54.935' | Pemukiman | Cabang | Istirahat
+Jumat, 22 Agustus 2025 | 06:04 | Cucak Kutilang (Pycnonotus aurigaster) | 10 | Mapanget | N 01°31.160' E 124°55.219' | Semak | Cabang | Istirahat
+Jumat, 22 Agustus 2025 | 06:22 | Perkutut Jawa (Geopelia striata) | 11 | Mapanget | N 01°31.427' E 124°55.260' | Pemukiman | Permukaan Tanah | Makan
+Sabtu, 23 Agustus 2025 | 05:10 | Cucak Kutilang (Pycnonotus aurigaster) | 12 | Teling | N 01°27.818' E 124°51.089' | Semak | Cabang | Istirahat
+Sabtu, 23 Agustus 2025 | 05:23 | Perkutut Jawa (Geopelia striata) | 13 | Teling | N 01°27.833' E 124°51.078' | Pemukiman | Permukaan Tanah | Bergerak
+Sabtu, 23 Agustus 2025 | 05:30 | Cucak Kutilang (Pycnonotus aurigaster) | 14 | Teling | N 01°27.521' E 124°51.266' | Semak | Cabang | Menelisik
+Sabtu, 23 Agustus 2025 | 05:36 | Cucak Kutilang (Pycnonotus aurigaster) | 15 | Teling | N 01°27.137' E 124°51.350' | Pemukiman | Cabang | Bergerak
+Sabtu, 23 Agustus 2025 | 05:42 | Cucak Kutilang (Pycnonotus aurigaster) | 16 | Teling | N 01°27.137' E 124°51.567' | Hutan Pertanian | Cabang | Istirahat
+Sabtu, 23 Agustus 2025 | 06:16 | Cucak Kutilang (Pycnonotus aurigaster) | 17 | Teling | N 01°27.210' E 124°51.124' | Pemukiman | Cabang | Istirahat
+Sabtu, 23 Agustus 2025 | 06:31 | Perkutut Jawa (Geopelia striata) | 18 | Teling | N 01°28.649' E 124°50.416' | Pemukiman | Cabang | Menelisik
+Minggu, 24 Agustus 2025 | 05:10 | Jalak (Acridotheres javanicus) | 19 | Malalayang | N 01°26.798' E  124°48.563' | Pemukiman | Tajuk | Istirahat
+Minggu, 24 Agustus 2025 | 05:16 | Cucak Kutilang (Pycnonotus aurigaster) | 20 | Malalayang | N 01°26.806' E 124°48.567' | Hutan Pertanian | Ranting | Istirahat
+Minggu, 24 Agustus 2025 | 05:24 | Cucak Kutilang (Pycnonotus aurigaster) | 21 | Malalayang | N 01°27.028' E 124°48.722' | Semak | Cabang | Istirahat
+Minggu, 24 Agustus 2025 | 05:34 | Jalak (Acridotheres javanicus) | 22 | Malalayang | N 01°26.224' E 124°48.409' | Pemukiman | Permukaan Tanah | Makan
+Minggu, 24 Agustus 2025 | 06:12 | Perkutut Jawa (Geopelia striata) | 24 | Malalayang | Lat: 1.4633916 Long: 124.8291702 | Pemukiman | Cabang | Istirahat
+Minggu, 24 Agustus 2025 | 06:22 | Cucak Kutilang (Pycnonotus aurigaster) | 25 | Malalayang | Lat. 1.4522652 Long: 124.8126668 | Semak | Ranting | Bergerak
+Minggu, 24 Agustus 2025 | 06:39 | Cucak Kutilang (Pycnonotus aurigaster) | 26 | Malalayang | Lat. 1.4423147 Long: 124.8115926 | Pemukiman | Cabang | Makan
+Senin, 25 Agustus 2025 | 05:08 | Cucak Kutilang (Pycnonotus aurigaster) | 27 | Talawaan | N 01°31.359' E 124°56.045' | Hutan Pertanian | Ranting | Makan
+Senin, 25 Agustus 2025 | 05:16 | Jalak (Acridotheres javanicus) | 28 | Talawaan | N 01°31.530' E 124°56.353' | Pemukiman | Cabang | Bergerak
+Senin, 25 Agustus 2025 | 05:24 | Perkutut Jawa (Geopelia striata) | 29 | Talawaan | N 01°31.714' E 124°56.798' | Semak | Permukaan Tanah | Makan
+Senin, 25 Agustus 2025 | 05:30 | Jalak (Acridotheres javanicus) | 30 | Talawaan | N 01°31.703' E 124°56.765' | Semak | Cabang | Istirahat
+Senin, 25 Agustus 2025 | 05:42 | Perkutut Jawa (Geopelia striata) | 31 | Talawaan | N 01°31.835' E 124°57.602' | Hutan Pertanian | Cabang | Bergerak
+Senin, 25 Agustus 2025 | 05:54 | Cucak Kutilang (Pycnonotus aurigaster) | 32 | Talawaan | N 01°32.008' E 124°57.675' | Semak | Ranting | Menelisik
+Senin, 25 Agustus 2025 | 06:09 | Jalak (Acridotheres javanicus) | 33 | Talawaan | N 01°32.038' E 124°57.677' | Pemukiman | Cabang | Bergerak
+Senin, 25 Agustus 2025 | 06:14 | Cucak Kutilang (Pycnonotus aurigaster) | 34 | Talawaan | N 01°32.142' E 124°57.472' | Hutan Pertanian | Cabang | Makan
+Senin, 25 Agustus 2025 | 06:27 | Perkutut Jawa (Geopelia striata) | 35 | Talawaan | N 01°32.112' E 124°57.467' | Semak | Cabang | Istirahat
+Senin, 25 Agustus 2025 | 06:30 | Jalak (Acridotheres javanicus) | 36 | Talawaan | N 01°31.938' E 124°57.570' | Pemukiman | Cabang | Bergerak
+Senin, 25 Agustus 2025 | 06:40 | Gelatik Jawa (Lonchura oryzivora) | 37 | Talawaan | N 01°31.888' E 124°57.778' | Hutan Pertanian | Ranting | Istirahat
+Senin, 25 Agustus 2025 | 07:16 | Jalak (Acridotheres javanicus) | 38 | Talawaan | N 01°31.906' E 124°57.584' | Pemukiman | Cabang | Istirahat
+Selasa, 26 Agustus 2025 | 05:06 | Cucak Kutilang (Pycnonotus aurigaster) | 39 | Airmadidi | N 01°27.692' E 124°55.802' | Semak | Cabang | Istirahat
+Selasa, 26 Agustus 2025 | 05:14 | Jalak (Acridotheres javanicus) | 40 | Airmadidi | N 01°27.692' E 124°55.801' | Pemukiman | Cabang | Bergerak
+Selasa, 26 Agustus 2026 | 05:25 | Perkutut Jawa (Geopelia striata) | 41 | Airmadidi | 1.461350, 124.930250 | Pemukiman | Permukaan Tanah | Menelisik
+Selasa, 26 Agustus 2027 | 05:29 | Perkutut Jawa (Geopelia striata) | 42 | Airmadidi | 1.461300, 124.930317 | Pemukiman | Cabang | Istirahat
+Selasa, 26 Agustus 2028 | 05:38 | Cucak Kutilang (Pycnonotus aurigaster) | 43 | Airmadidi | 1.460100, 124.931717 | Semak | Ranting | Bergerak
+Selasa, 26 Agustus 2029 | 06:11 | Jalak (Acridotheres javanicus) | 44 | Airmadidi | 1.439050, 124.968500 | Pemukiman | Cabang | Bergerak
+Selasa, 26 Agustus 2030 | 06:28 | Tekukur (Spilopelia chinensis) | 45 | Airmadidi | 1.455917, 124.937817 | Hutan Pertanian | Permukaan Tanah | Makan
+Selasa, 26 Agustus 2031 | 06:58 | Cucak Kutilang (Pycnonotus aurigaster) | 46 | Airmadidi | 1.429750, 124.973750 | Hutan Pertanian | Cabang | Menelisik
+Rabu, 27 Agustus 2025 | 05:12 | Jalak (Acridotheres javanicus) | 47 | Tuminting | 1.509217, 124.843683 | Pemukiman | Permukaan Tanah | Bergerak
+Rabu, 27 Agustus 2025 | 05:18 | Tekukur (Spilopelia chinensis) | 48 | Tuminting | 1.515778, 124.844750 | Pemukiman | Permukaan Tanah | Bergerak
+Rabu, 27 Agustus 2025 | 05:22 | Cucak Kutilang (Pycnonotus aurigaster) | 49 | Tuminting | 1.517067, 124.844800 | Pemukiman | Cabang | Bergerak
+Rabu, 27 Agustus 2025 | 05:28 | Cucak Kutilang (Pycnonotus aurigaster) | 50 | Tuminting | 1.521583, 125.843583 | Pemukiman | Cabang | Bergerak
