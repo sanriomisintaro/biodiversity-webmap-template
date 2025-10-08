@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
-<title>your.xlxs to data_mappoints.txt</title>
+<title>your.xlsx to data_mappoints.txt</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
   body{font-family:system-ui,Arial,sans-serif;margin:24px}
@@ -18,7 +18,7 @@
 </style>
 
 <body>
-  <h1>your.xlxs to <code>data_mappoints.txt</code></h1>
+  <h1>your.xlsx to <code>data_mappoints.txt</code></h1>
   <div class="box">
     <p>Upload an Excel file (.xlsx / .xls). The sheet must have a header row.
       The tool will export a pipe-separated text file in this exact order:</p>
@@ -37,7 +37,7 @@
     <div class="row">
       <input type="file" id="file" accept=".xlsx,.xls,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel">
       <select id="sheet" hidden></select>
-      <button id="convert" disabled>Convert → TXT</button>
+      <button id="convert" disabled>Convert to TXT</button>
     </div>
     <p class="muted">Accepted header synonyms (case-insensitive) include Indonesian & English (e.g., <em>Tanggal</em>/<em>Date</em>, <em>Jam</em>/<em>Time</em>, <em>Jenis</em>/<em>Species</em>, <em>Jumlah Individu</em>/<em>Count</em>, <em>Distrik</em>/<em>District</em>, <em>Koordinat</em>/<em>Coordinate</em>, etc.).</p>
     <div id="status" class="muted"></div>
@@ -45,7 +45,7 @@
     <div class="preview" id="preview" hidden></div>
   </div>
 
-  <!-- SheetJS (XLSX parser). If you prefer, download this file and serve locally from /etc/xlxstotxt/xlsx.full.min.js -->
+  <!-- SheetJS (XLSX parser). If you prefer, download this file and serve locally from /etc/xlsxtotxt/xlsx.full.min.js -->
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
   <script>
   (function(){

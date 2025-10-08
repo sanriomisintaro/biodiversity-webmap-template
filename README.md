@@ -13,7 +13,7 @@ Everything runs on a free static site (GitHub Pages) — **no server, no databas
 - **Get the blank template:** [`template/`](template/)  
 - **Converters (online):**
   - CSV → TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
-  - XLSX → TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/
+  - XLSX → TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
 
 ---
 
@@ -55,7 +55,7 @@ docs/ # how-to guide (served on Pages)
 template/ # blank starter you can copy
 tools/
 csv-to-txt/ # CSV converter (browser-based)
-xlxs-to-txt/ # XLSX converter (browser-based)
+xlsx-to-txt/ # XLSX converter (browser-based)
 ```
 
 ---
@@ -129,7 +129,7 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
 ### Option B — Convert your spreadsheet first
 - Use **CSV → TXT** or **XLSX → TXT** online:
   - CSV: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
-  - XLSX: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/
+  - XLSX: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
 - Move the downloaded `data_mappoints.txt` into `app/data/`.
 
 ### Publish on GitHub Pages

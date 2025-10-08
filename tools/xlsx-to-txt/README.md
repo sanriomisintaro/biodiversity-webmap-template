@@ -1,4 +1,4 @@
-# yourdata.xlxs to data_mappoints.txt
+# yourdata.xlsx to data_mappoints.txt
 
 **Use it online:** https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/
 
