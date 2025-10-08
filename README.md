@@ -141,8 +141,8 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
 ---
 
 ## When to use (and when not)
-- ✅ Teaching, outreach, class projects, small NGO/lab datasets (hundreds → few thousands of points)
-- ❌ If you need multi-user data entry, user accounts, advanced queries, or millions of points → consider a server-backed platform; this app can be a **stepping-stone**.
+- ✅ DO: Teaching, outreach, class projects, small NGO/lab datasets (hundreds → few thousands of points)
+- ❎ DONT: If you need multi-user data entry, user accounts, advanced queries, or millions of points → consider a server-backed platform; this app can be a **stepping-stone**.
 
 ---
 
@@ -179,7 +179,7 @@ If needed, generalize or mask coordinates **before** publishing (e.g., round to 
 
 ---
 
-##Acknowledgements
+## Acknowledgements
 Built with lightweight web tech (vanilla HTML/CSS/JS).
 Map tiles from OpenStreetMap / imagery providers as configured in the app.
 
