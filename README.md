@@ -127,6 +127,12 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
   - XLSX: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
 - Move the downloaded `data_mappoints.txt` into `app/data/`.
 
+### Publish on GitHub Pages
+1. Push this repo to GitHub.  
+2. **Settings → Pages** → *Deploy from a branch* → **Branch:** `main`, **Folder:** `/ (root)`  
+3. Your site will be at:  
+   `https://sanriomisintaro.github.io/biodiversity-webmap-template/`
+
 ---
 ## When to use (and when not)
 - DO:
@@ -136,6 +142,7 @@ showRoad = 1 # 0=show labels/roads, 1=hide labels
   - If you need multi-user data entry, user accounts, advanced queries, or millions of points → consider a server-backed platform; this app can be a **stepping-stone**.
 
 ---
+
 ## Cite / credit
 If you use this template in a publication or report, please cite the repository and (if available) the archived release DOI.
 (not ready yet to cite)

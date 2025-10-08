@@ -6,7 +6,7 @@ Publish species-occurrence maps from plain text files — no server, no database
 - App: https://sanriomisintaro.github.io/biodiversity-webmap-template/app/
 - Tools:
   - CSV to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/
-  - XLSX to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/
+  - XLSX to TXT: https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/
 
 **Repo**
 - Root README: [../](../)
@@ -24,7 +24,7 @@ Publish species-occurrence maps from plain text files — no server, no database
 1. Export your table as **CSV** or use your **XLSX** file directly.
 2. Convert online:
    - CSV to TXT: **[tools/csv-to-txt](../tools/csv-to-txt/)**  
-   - XLSX to TXT: **[tools/xlxs-to-txt](../tools/xlxs-to-txt/)**
+   - XLSX to TXT: **[tools/xlsx-to-txt](../tools/xlsx-to-txt/)**
 3. Move the downloaded **`data_mappoints.txt`** to **`app/data/`**.
 
 **Publish on GitHub Pages**
@@ -50,7 +50,7 @@ images/ # photos/icons referenced from data_species.txt
 docs/ # this page
 tools/
 csv-to-txt/ # CSV converter (browser-only)
-xlxs-to-txt/ # XLSX converter (browser-only)
+xlsx-to-txt/ # XLSX converter (browser-only)
 template/ # blank starter you can copy
 ```
 
@@ -130,19 +130,20 @@ showRoad = 1 # 0=show road labels, 1=hide labels
 - Keep images ≤200–400 KB each for faster loads.
 - Species show in the legend **only if** they appear in `data_mappoints.txt`.
 - If loading the app locally fails (browser security), run a tiny server:
-  ```bash
+```
   # from the repo root
   python -m http.server 8000
   # then open http://localhost:8000/app/
+```
 
 ---
 ##Converters (details)
 
 CSV → TXT: detects Indonesian/English headers, normalizes dates/times, previews, then downloads data_mappoints.txt.
-[Open:] (https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/)
+[Open:](https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/csv-to-txt/)
 
 XLSX → TXT: supports multi-sheet workbooks, header synonyms, date/time normalization, preview, download.
-[Open:] (https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/)
+[Open:](https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/)
 
 Both run entirely in your browser (no upload).
 
