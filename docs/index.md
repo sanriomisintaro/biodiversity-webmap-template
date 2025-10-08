@@ -83,7 +83,12 @@ date | time | species | count | district | coord | habitat | location | activity
 - **time**: `HH:MM` (24-h) or `H:MM AM/PM` (auto-normalized)
 - **species**: must **match** a `name` in `data_species.txt`
 - **coord**: decimal `-1.481, 124.846` **or** DMS/DM `N 01°28.717' E 124°53.518'`
-- Converters replace any `|` inside text with `/` to keep the delimiter clean
+  - YYou can use any of these:
+  ```
+  1.521583, 125.843583
+  N 01°31.888' E 124°57.778'
+  Lat: 1.4633916 Long: 124.8291702 
+  ```
 
 **Example**
 ```
