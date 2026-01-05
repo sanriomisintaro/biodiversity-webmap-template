@@ -1,0 +1,11 @@
+# dont forget to put images(or any folder that you use)
+# You can write your species in here and input the location inside data_mappoints.txt
+# check data_mappoints.txt for more details
+# but the apps will only shown species mappoint datas that you input in data_mappoints
+# name | color | image
+
+Cucak Kutilang (Pycnonotus aurigaster) | #e41a1c | images/CucakKutilang.jpg
+Perkutut Jawa (Geopelia striata)       | #377eb8 | images/PerkututJawa.jpg
+Jalak (Acridotheres javanicus)         | #4daf4a | images/Jalak.jpg
+Tekukur (Spilopelia chinensis)         | #984ea3 | images/Tekukur.jpg
+Gelatik Jawa (Lonchura oryzivora)      | #a65628 | images/GelatikJawa.jpg

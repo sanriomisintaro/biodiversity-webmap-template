@@ -1,0 +1,502 @@
+# Dummy dataset generated for performance testing
+# date | time | species | count | district | coord | habitat | location | activity
+Rabu, 06 Agustus 2025 | 18:46 | Tekukur (Spilopelia chinensis) | 1 | Tikala | N 01°33.459' E 124°52.748' | Sawah | Kabel | Bertengger
+Selasa, 05 Agustus 2025 | 21:15 | Tekukur (Spilopelia chinensis) | 1 | Sario | N 01°33.805' E 124°55.871' | Semak | Pohon | Terbang
+Kamis, 07 Agustus 2025 | 02:04 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Bunaken | N 01°34.393' E 124°47.473' | Semak | Kabel | Bertengger
+Rabu, 20 Agustus 2025 | 17:26 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Ringroad | N 01°25.449' E 124°50.529' | Perumahan | Semak | Bersuara
+Selasa, 05 Agustus 2025 | 23:53 | Perkutut Jawa (Geopelia striata) | 1 | Paal Dua | N 01°25.802' E 124°49.698' | Pantai | Pohon | Bersuara
+Rabu, 13 Agustus 2025 | 11:48 | Jalak (Acridotheres javanicus) | 8 | Ringroad | N 01°26.486' E 124°52.488' | Pantai | Atap | Bertengger
+Rabu, 13 Agustus 2025 | 09:09 | Tekukur (Spilopelia chinensis) | 2 | Wanea | N 01°38.039' E 124°58.752' | Sawah | Pohon | Makan
+Rabu, 27 Agustus 2025 | 09:20 | Gelatik Jawa (Lonchura oryzivora) | 4 | Bunaken | N 01°25.071' E 124°45.500' | Pantai | Ranting | Berinteraksi
+Senin, 04 Agustus 2025 | 16:23 | Cucak Kutilang (Pycnonotus aurigaster) | 5 | Tikala | N 01°32.791' E 124°47.174' | Perumahan | Ranting | Makan
+Kamis, 07 Agustus 2025 | 07:37 | Jalak (Acridotheres javanicus) | 3 | Bunaken | N 01°25.119' E 124°51.835' | Hutan sekunder | Kabel | Bertengger
+Minggu, 03 Agustus 2025 | 12:06 | Gelatik Jawa (Lonchura oryzivora) | 9 | Tikala | N 01°36.367' E 124°57.454' | Perumahan | Ranting | Berjalan
+Sabtu, 30 Agustus 2025 | 13:17 | Tekukur (Spilopelia chinensis) | 7 | Malalayang | N 01°34.105' E 124°49.073' | Pantai | Kabel | Bertengger
+Selasa, 05 Agustus 2025 | 16:53 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Ringroad | N 01°29.573' E 124°51.247' | Hutan sekunder | Kabel | Bersuara
+Sabtu, 30 Agustus 2025 | 14:20 | Tekukur (Spilopelia chinensis) | 3 | Tikala | N 01°32.741' E 124°57.442' | Kebun | Ranting | Terbang
+Sabtu, 02 Agustus 2025 | 10:12 | Cucak Kutilang (Pycnonotus aurigaster) | 9 | Paal Dua | N 01°32.161' E 124°51.113' | Perumahan | Tanah | Bersuara
+Minggu, 24 Agustus 2025 | 09:00 | Gelatik Jawa (Lonchura oryzivora) | 3 | Wenang | N 01°38.597' E 124°56.225' | Kebun | Pohon | Berjalan
+Jumat, 15 Agustus 2025 | 00:02 | Perkutut Jawa (Geopelia striata) | 3 | Sario | N 01°33.072' E 124°54.740' | Semak | Ranting | Berinteraksi
+Jumat, 08 Agustus 2025 | 17:32 | Gelatik Jawa (Lonchura oryzivora) | 9 | Wanea | N 01°31.785' E 124°56.826' | Pantai | Atap | Bersuara
+Sabtu, 30 Agustus 2025 | 16:40 | Gelatik Jawa (Lonchura oryzivora) | 2 | Malalayang | N 01°25.691' E 124°54.336' | Sawah | Pohon | Bersuara
+Sabtu, 02 Agustus 2025 | 11:01 | Jalak (Acridotheres javanicus) | 3 | Malalayang | N 01°31.137' E 124°46.385' | Taman kota | Kabel | Makan
+Senin, 04 Agustus 2025 | 14:49 | Jalak (Acridotheres javanicus) | 1 | Bunaken | N 01°25.232' E 124°51.859' | Hutan sekunder | Atap | Berinteraksi
+Minggu, 03 Agustus 2025 | 21:46 | Gelatik Jawa (Lonchura oryzivora) | 7 | Tikala | N 01°34.989' E 124°46.598' | Kebun | Tanah | Terbang
+Minggu, 10 Agustus 2025 | 06:25 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Malalayang | N 01°31.637' E 124°46.658' | Kebun | Kabel | Berinteraksi
+Sabtu, 23 Agustus 2025 | 16:10 | Perkutut Jawa (Geopelia striata) | 1 | Malalayang | N 01°39.816' E 124°45.321' | Pantai | Semak | Bertengger
+Selasa, 26 Agustus 2025 | 22:16 | Cucak Kutilang (Pycnonotus aurigaster) | 10 | Malalayang | N 01°26.894' E 124°57.993' | Sawah | Pohon | Bertengger
+Sabtu, 30 Agustus 2025 | 09:34 | Jalak (Acridotheres javanicus) | 2 | Ringroad | N 01°34.949' E 124°47.404' | Pantai | Atap | Berinteraksi
+Selasa, 12 Agustus 2025 | 07:38 | Perkutut Jawa (Geopelia striata) | 7 | Sario | N 01°31.230' E 124°51.934' | Perumahan | Semak | Berjalan
+Minggu, 03 Agustus 2025 | 00:37 | Jalak (Acridotheres javanicus) | 4 | Sario | N 01°38.759' E 124°57.285' | Sawah | Semak | Terbang
+Minggu, 03 Agustus 2025 | 09:27 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Tikala | N 01°35.104' E 124°59.843' | Pantai | Ranting | Terbang
+Sabtu, 02 Agustus 2025 | 08:17 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Bunaken | N 01°25.286' E 124°52.062' | Taman kota | Semak | Bersuara
+Selasa, 26 Agustus 2025 | 13:42 | Perkutut Jawa (Geopelia striata) | 2 | Malalayang | N 01°37.568' E 124°49.208' | Kebun | Atap | Makan
+Senin, 11 Agustus 2025 | 10:21 | Jalak (Acridotheres javanicus) | 5 | Tikala | N 01°30.895' E 124°55.435' | Taman kota | Pohon | Terbang
+Minggu, 03 Agustus 2025 | 23:14 | Gelatik Jawa (Lonchura oryzivora) | 1 | Ringroad | N 01°33.186' E 124°46.458' | Semak | Kabel | Bertengger
+Senin, 18 Agustus 2025 | 01:30 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Wenang | N 01°36.170' E 124°45.313' | Semak | Kabel | Terbang
+Jumat, 08 Agustus 2025 | 12:41 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°39.571' E 124°55.658' | Pantai | Semak | Berinteraksi
+Senin, 25 Agustus 2025 | 12:44 | Tekukur (Spilopelia chinensis) | 1 | Paal Dua | N 01°30.635' E 124°54.815' | Taman kota | Atap | Berjalan
+Jumat, 15 Agustus 2025 | 12:11 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Sario | N 01°31.811' E 124°46.507' | Perumahan | Semak | Makan
+Selasa, 19 Agustus 2025 | 00:02 | Perkutut Jawa (Geopelia striata) | 3 | Malalayang | N 01°34.494' E 124°54.530' | Taman kota | Tanah | Makan
+Kamis, 07 Agustus 2025 | 08:53 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Bunaken | N 01°39.987' E 124°57.251' | Hutan sekunder | Atap | Terbang
+Selasa, 26 Agustus 2025 | 05:15 | Perkutut Jawa (Geopelia striata) | 8 | Ringroad | N 01°38.293' E 124°57.805' | Taman kota | Semak | Berinteraksi
+Kamis, 07 Agustus 2025 | 13:38 | Gelatik Jawa (Lonchura oryzivora) | 2 | Bunaken | N 01°35.060' E 124°47.858' | Pantai | Kabel | Berjalan
+Sabtu, 09 Agustus 2025 | 01:23 | Gelatik Jawa (Lonchura oryzivora) | 10 | Bunaken | N 01°36.420' E 124°47.546' | Hutan sekunder | Tanah | Bertengger
+Selasa, 05 Agustus 2025 | 15:56 | Jalak (Acridotheres javanicus) | 3 | Bunaken | N 01°37.031' E 124°48.994' | Hutan sekunder | Kabel | Terbang
+Sabtu, 02 Agustus 2025 | 02:12 | Jalak (Acridotheres javanicus) | 1 | Tikala | N 01°35.647' E 124°50.358' | Sawah | Tanah | Bertengger
+Senin, 18 Agustus 2025 | 22:47 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°38.450' E 124°57.522' | Taman kota | Ranting | Makan
+Kamis, 14 Agustus 2025 | 14:56 | Jalak (Acridotheres javanicus) | 2 | Bunaken | N 01°39.991' E 124°46.469' | Taman kota | Semak | Makan
+Jumat, 29 Agustus 2025 | 04:50 | Cucak Kutilang (Pycnonotus aurigaster) | 4 | Wanea | N 01°34.911' E 124°50.105' | Kebun | Ranting | Bersuara
+Kamis, 14 Agustus 2025 | 06:49 | Perkutut Jawa (Geopelia striata) | 2 | Wenang | N 01°37.437' E 124°49.352' | Kebun | Ranting | Berjalan
+Senin, 04 Agustus 2025 | 05:24 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Bunaken | N 01°35.441' E 124°58.391' | Sawah | Kabel | Terbang
+Selasa, 19 Agustus 2025 | 13:48 | Jalak (Acridotheres javanicus) | 5 | Ringroad | N 01°35.463' E 124°56.678' | Semak | Atap | Bersuara
+Kamis, 07 Agustus 2025 | 08:16 | Gelatik Jawa (Lonchura oryzivora) | 5 | Wenang | N 01°39.602' E 124°49.621' | Kebun | Kabel | Bertengger
+Rabu, 20 Agustus 2025 | 11:09 | Jalak (Acridotheres javanicus) | 4 | Paal Dua | N 01°29.134' E 124°54.983' | Kebun | Atap | Makan
+Kamis, 14 Agustus 2025 | 09:06 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°26.112' E 124°49.606' | Perumahan | Kabel | Berinteraksi
+Sabtu, 30 Agustus 2025 | 21:37 | Gelatik Jawa (Lonchura oryzivora) | 4 | Wanea | N 01°36.607' E 124°52.740' | Taman kota | Ranting | Bertengger
+Minggu, 17 Agustus 2025 | 22:58 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Malalayang | N 01°35.875' E 124°50.642' | Pantai | Semak | Bertengger
+Kamis, 14 Agustus 2025 | 01:27 | Perkutut Jawa (Geopelia striata) | 1 | Tikala | N 01°30.126' E 124°58.204' | Sawah | Ranting | Bersuara
+Jumat, 15 Agustus 2025 | 20:04 | Tekukur (Spilopelia chinensis) | 1 | Sario | N 01°39.661' E 124°51.858' | Perumahan | Semak | Bersuara
+Kamis, 07 Agustus 2025 | 11:00 | Gelatik Jawa (Lonchura oryzivora) | 3 | Ringroad | N 01°33.049' E 124°58.560' | Sawah | Ranting | Makan
+Jumat, 01 Agustus 2025 | 18:34 | Perkutut Jawa (Geopelia striata) | 1 | Wenang | N 01°39.942' E 124°53.547' | Pantai | Tanah | Berjalan
+Selasa, 19 Agustus 2025 | 18:41 | Gelatik Jawa (Lonchura oryzivora) | 3 | Sario | N 01°39.462' E 124°55.447' | Hutan sekunder | Kabel | Terbang
+Minggu, 17 Agustus 2025 | 09:13 | Gelatik Jawa (Lonchura oryzivora) | 2 | Bunaken | N 01°37.577' E 124°46.106' | Semak | Kabel | Bersuara
+Senin, 11 Agustus 2025 | 19:04 | Perkutut Jawa (Geopelia striata) | 1 | Bunaken | N 01°25.199' E 124°50.040' | Perumahan | Kabel | Berjalan
+Selasa, 26 Agustus 2025 | 07:46 | Gelatik Jawa (Lonchura oryzivora) | 4 | Sario | N 01°36.516' E 124°50.662' | Taman kota | Kabel | Berinteraksi
+Jumat, 22 Agustus 2025 | 06:09 | Gelatik Jawa (Lonchura oryzivora) | 1 | Wanea | N 01°36.045' E 124°55.966' | Semak | Atap | Bersuara
+Senin, 25 Agustus 2025 | 10:17 | Perkutut Jawa (Geopelia striata) | 4 | Tikala | N 01°35.871' E 124°58.572' | Sawah | Atap | Bertengger
+Sabtu, 16 Agustus 2025 | 11:56 | Gelatik Jawa (Lonchura oryzivora) | 1 | Bunaken | N 01°31.886' E 124°59.483' | Sawah | Atap | Bersuara
+Sabtu, 02 Agustus 2025 | 13:04 | Perkutut Jawa (Geopelia striata) | 1 | Ringroad | N 01°29.271' E 124°48.100' | Hutan sekunder | Ranting | Terbang
+Minggu, 03 Agustus 2025 | 21:04 | Gelatik Jawa (Lonchura oryzivora) | 1 | Ringroad | N 01°32.194' E 124°53.438' | Perumahan | Pohon | Makan
+Jumat, 15 Agustus 2025 | 03:35 | Perkutut Jawa (Geopelia striata) | 3 | Wanea | N 01°37.749' E 124°55.117' | Taman kota | Semak | Berjalan
+Minggu, 17 Agustus 2025 | 00:41 | Perkutut Jawa (Geopelia striata) | 9 | Bunaken | N 01°28.194' E 124°53.322' | Pantai | Ranting | Makan
+Jumat, 01 Agustus 2025 | 06:00 | Perkutut Jawa (Geopelia striata) | 3 | Sario | N 01°25.366' E 124°55.589' | Perumahan | Ranting | Bertengger
+Senin, 18 Agustus 2025 | 10:40 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Malalayang | N 01°37.386' E 124°56.183' | Semak | Semak | Bersuara
+Rabu, 27 Agustus 2025 | 08:43 | Cucak Kutilang (Pycnonotus aurigaster) | 9 | Malalayang | N 01°27.943' E 124°49.999' | Pantai | Tanah | Berinteraksi
+Rabu, 27 Agustus 2025 | 20:44 | Gelatik Jawa (Lonchura oryzivora) | 3 | Wenang | N 01°28.281' E 124°59.706' | Semak | Ranting | Bertengger
+Senin, 18 Agustus 2025 | 17:30 | Tekukur (Spilopelia chinensis) | 4 | Malalayang | N 01°25.601' E 124°52.527' | Pantai | Ranting | Bertengger
+Jumat, 15 Agustus 2025 | 16:00 | Tekukur (Spilopelia chinensis) | 8 | Wenang | N 01°39.222' E 124°54.888' | Semak | Semak | Bersuara
+Jumat, 15 Agustus 2025 | 05:08 | Tekukur (Spilopelia chinensis) | 3 | Wanea | N 01°30.309' E 124°45.270' | Sawah | Tanah | Makan
+Senin, 04 Agustus 2025 | 17:07 | Tekukur (Spilopelia chinensis) | 4 | Bunaken | N 01°26.863' E 124°55.550' | Hutan sekunder | Atap | Berjalan
+Jumat, 01 Agustus 2025 | 08:22 | Tekukur (Spilopelia chinensis) | 1 | Paal Dua | N 01°32.453' E 124°48.131' | Kebun | Tanah | Bertengger
+Jumat, 15 Agustus 2025 | 09:15 | Perkutut Jawa (Geopelia striata) | 1 | Wenang | N 01°34.361' E 124°48.216' | Perumahan | Ranting | Makan
+Kamis, 07 Agustus 2025 | 08:29 | Gelatik Jawa (Lonchura oryzivora) | 2 | Tikala | N 01°35.003' E 124°53.479' | Taman kota | Pohon | Makan
+Senin, 25 Agustus 2025 | 10:56 | Jalak (Acridotheres javanicus) | 7 | Paal Dua | N 01°27.185' E 124°51.900' | Hutan sekunder | Pohon | Makan
+Kamis, 21 Agustus 2025 | 23:01 | Tekukur (Spilopelia chinensis) | 3 | Bunaken | N 01°39.055' E 124°53.636' | Semak | Atap | Makan
+Sabtu, 02 Agustus 2025 | 05:28 | Perkutut Jawa (Geopelia striata) | 2 | Ringroad | N 01°26.986' E 124°56.399' | Kebun | Atap | Makan
+Selasa, 05 Agustus 2025 | 04:47 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Wanea | N 01°39.238' E 124°53.022' | Hutan sekunder | Atap | Berjalan
+Jumat, 22 Agustus 2025 | 02:02 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Wanea | N 01°36.256' E 124°52.345' | Hutan sekunder | Atap | Berjalan
+Jumat, 15 Agustus 2025 | 22:24 | Perkutut Jawa (Geopelia striata) | 1 | Bunaken | N 01°29.913' E 124°52.559' | Pantai | Ranting | Bersuara
+Sabtu, 23 Agustus 2025 | 23:31 | Gelatik Jawa (Lonchura oryzivora) | 5 | Sario | N 01°32.950' E 124°55.687' | Sawah | Kabel | Bersuara
+Minggu, 03 Agustus 2025 | 09:40 | Gelatik Jawa (Lonchura oryzivora) | 3 | Bunaken | N 01°27.700' E 124°52.863' | Taman kota | Ranting | Berjalan
+Senin, 18 Agustus 2025 | 11:58 | Gelatik Jawa (Lonchura oryzivora) | 2 | Wanea | N 01°39.398' E 124°51.077' | Semak | Kabel | Berjalan
+Selasa, 12 Agustus 2025 | 05:19 | Tekukur (Spilopelia chinensis) | 1 | Paal Dua | N 01°26.509' E 124°57.691' | Hutan sekunder | Ranting | Makan
+Jumat, 22 Agustus 2025 | 17:28 | Tekukur (Spilopelia chinensis) | 1 | Paal Dua | N 01°36.855' E 124°45.369' | Taman kota | Atap | Bertengger
+Senin, 04 Agustus 2025 | 05:59 | Gelatik Jawa (Lonchura oryzivora) | 5 | Paal Dua | N 01°31.999' E 124°51.665' | Hutan sekunder | Kabel | Bersuara
+Senin, 18 Agustus 2025 | 03:03 | Jalak (Acridotheres javanicus) | 8 | Wenang | N 01°28.561' E 124°48.243' | Hutan sekunder | Semak | Bersuara
+Sabtu, 09 Agustus 2025 | 20:29 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Wanea | N 01°35.297' E 124°51.655' | Semak | Tanah | Bersuara
+Minggu, 17 Agustus 2025 | 12:27 | Cucak Kutilang (Pycnonotus aurigaster) | 6 | Wenang | N 01°33.654' E 124°49.855' | Semak | Kabel | Berjalan
+Minggu, 24 Agustus 2025 | 18:21 | Gelatik Jawa (Lonchura oryzivora) | 6 | Paal Dua | N 01°37.711' E 124°57.522' | Kebun | Semak | Makan
+Rabu, 06 Agustus 2025 | 00:08 | Jalak (Acridotheres javanicus) | 1 | Malalayang | N 01°35.805' E 124°46.948' | Hutan sekunder | Tanah | Berjalan
+Sabtu, 23 Agustus 2025 | 07:06 | Perkutut Jawa (Geopelia striata) | 1 | Paal Dua | N 01°31.559' E 124°48.687' | Sawah | Pohon | Makan
+Minggu, 17 Agustus 2025 | 18:41 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Ringroad | N 01°33.986' E 124°51.213' | Perumahan | Kabel | Berinteraksi
+Minggu, 03 Agustus 2025 | 02:58 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Wenang | N 01°34.763' E 124°53.769' | Pantai | Kabel | Berinteraksi
+Sabtu, 30 Agustus 2025 | 18:15 | Perkutut Jawa (Geopelia striata) | 10 | Sario | N 01°26.305' E 124°47.278' | Kebun | Semak | Terbang
+Rabu, 06 Agustus 2025 | 11:57 | Cucak Kutilang (Pycnonotus aurigaster) | 5 | Malalayang | N 01°36.478' E 124°57.129' | Taman kota | Pohon | Berinteraksi
+Selasa, 12 Agustus 2025 | 17:53 | Perkutut Jawa (Geopelia striata) | 8 | Wanea | N 01°25.339' E 124°53.174' | Sawah | Tanah | Berjalan
+Kamis, 14 Agustus 2025 | 06:07 | Gelatik Jawa (Lonchura oryzivora) | 8 | Wenang | N 01°31.740' E 124°55.507' | Hutan sekunder | Tanah | Berjalan
+Senin, 04 Agustus 2025 | 03:56 | Perkutut Jawa (Geopelia striata) | 2 | Wenang | N 01°27.193' E 124°50.710' | Pantai | Semak | Bersuara
+Jumat, 29 Agustus 2025 | 13:24 | Perkutut Jawa (Geopelia striata) | 10 | Paal Dua | N 01°31.853' E 124°56.949' | Hutan sekunder | Semak | Bertengger
+Selasa, 05 Agustus 2025 | 11:49 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Malalayang | N 01°34.691' E 124°45.963' | Semak | Kabel | Makan
+Rabu, 06 Agustus 2025 | 22:26 | Gelatik Jawa (Lonchura oryzivora) | 1 | Wenang | N 01°39.440' E 124°53.197' | Pantai | Atap | Berjalan
+Senin, 04 Agustus 2025 | 08:41 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Ringroad | N 01°30.240' E 124°48.943' | Taman kota | Tanah | Berjalan
+Rabu, 27 Agustus 2025 | 19:01 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°29.621' E 124°59.269' | Pantai | Ranting | Bertengger
+Selasa, 12 Agustus 2025 | 18:56 | Gelatik Jawa (Lonchura oryzivora) | 2 | Wanea | N 01°29.913' E 124°46.186' | Pantai | Atap | Bersuara
+Sabtu, 30 Agustus 2025 | 10:34 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Wenang | N 01°26.546' E 124°53.504' | Kebun | Ranting | Terbang
+Minggu, 03 Agustus 2025 | 19:46 | Tekukur (Spilopelia chinensis) | 2 | Ringroad | N 01°29.261' E 124°56.804' | Perumahan | Semak | Berjalan
+Senin, 04 Agustus 2025 | 06:11 | Jalak (Acridotheres javanicus) | 1 | Paal Dua | N 01°33.342' E 124°51.642' | Perumahan | Atap | Bersuara
+Rabu, 13 Agustus 2025 | 11:40 | Tekukur (Spilopelia chinensis) | 3 | Paal Dua | N 01°38.897' E 124°52.834' | Perumahan | Tanah | Berjalan
+Kamis, 07 Agustus 2025 | 00:08 | Perkutut Jawa (Geopelia striata) | 3 | Bunaken | N 01°39.830' E 124°53.078' | Perumahan | Semak | Makan
+Selasa, 05 Agustus 2025 | 13:57 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Wanea | N 01°26.426' E 124°58.973' | Sawah | Atap | Makan
+Rabu, 13 Agustus 2025 | 13:02 | Jalak (Acridotheres javanicus) | 2 | Bunaken | N 01°28.114' E 124°59.029' | Taman kota | Semak | Berinteraksi
+Kamis, 07 Agustus 2025 | 10:20 | Tekukur (Spilopelia chinensis) | 4 | Wanea | N 01°30.064' E 124°46.925' | Semak | Ranting | Berinteraksi
+Kamis, 07 Agustus 2025 | 22:36 | Cucak Kutilang (Pycnonotus aurigaster) | 8 | Wenang | N 01°25.711' E 124°46.564' | Hutan sekunder | Ranting | Terbang
+Sabtu, 23 Agustus 2025 | 07:46 | Jalak (Acridotheres javanicus) | 6 | Tikala | N 01°31.573' E 124°56.827' | Hutan sekunder | Semak | Terbang
+Jumat, 29 Agustus 2025 | 02:00 | Gelatik Jawa (Lonchura oryzivora) | 1 | Bunaken | N 01°30.043' E 124°49.233' | Pantai | Ranting | Makan
+Minggu, 10 Agustus 2025 | 10:55 | Gelatik Jawa (Lonchura oryzivora) | 5 | Bunaken | N 01°35.652' E 124°47.529' | Perumahan | Semak | Bersuara
+Minggu, 24 Agustus 2025 | 21:42 | Cucak Kutilang (Pycnonotus aurigaster) | 5 | Ringroad | N 01°35.249' E 124°56.211' | Pantai | Tanah | Bersuara
+Sabtu, 02 Agustus 2025 | 21:51 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Sario | N 01°26.485' E 124°50.678' | Pantai | Semak | Bersuara
+Kamis, 07 Agustus 2025 | 04:38 | Gelatik Jawa (Lonchura oryzivora) | 3 | Sario | N 01°32.030' E 124°47.661' | Pantai | Atap | Bersuara
+Sabtu, 02 Agustus 2025 | 17:30 | Tekukur (Spilopelia chinensis) | 7 | Sario | N 01°33.729' E 124°53.804' | Sawah | Kabel | Berjalan
+Jumat, 01 Agustus 2025 | 18:18 | Perkutut Jawa (Geopelia striata) | 3 | Ringroad | N 01°35.715' E 124°57.101' | Sawah | Semak | Terbang
+Sabtu, 23 Agustus 2025 | 07:32 | Tekukur (Spilopelia chinensis) | 5 | Wenang | N 01°37.700' E 124°51.452' | Kebun | Ranting | Bertengger
+Jumat, 08 Agustus 2025 | 18:16 | Tekukur (Spilopelia chinensis) | 3 | Bunaken | N 01°29.216' E 124°51.905' | Semak | Pohon | Berjalan
+Selasa, 12 Agustus 2025 | 20:36 | Gelatik Jawa (Lonchura oryzivora) | 7 | Paal Dua | N 01°38.002' E 124°48.225' | Perumahan | Pohon | Terbang
+Senin, 18 Agustus 2025 | 14:48 | Jalak (Acridotheres javanicus) | 3 | Ringroad | N 01°27.643' E 124°58.285' | Taman kota | Atap | Berinteraksi
+Sabtu, 02 Agustus 2025 | 04:50 | Perkutut Jawa (Geopelia striata) | 1 | Bunaken | N 01°29.826' E 124°59.326' | Perumahan | Kabel | Berinteraksi
+Rabu, 06 Agustus 2025 | 10:03 | Perkutut Jawa (Geopelia striata) | 9 | Malalayang | N 01°27.337' E 124°47.626' | Semak | Kabel | Bersuara
+Senin, 25 Agustus 2025 | 09:54 | Perkutut Jawa (Geopelia striata) | 2 | Ringroad | N 01°25.150' E 124°50.515' | Perumahan | Kabel | Bertengger
+Minggu, 17 Agustus 2025 | 13:19 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Paal Dua | N 01°35.457' E 124°52.799' | Taman kota | Semak | Bertengger
+Sabtu, 02 Agustus 2025 | 21:25 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Malalayang | N 01°28.378' E 124°59.450' | Hutan sekunder | Ranting | Makan
+Sabtu, 23 Agustus 2025 | 22:55 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°39.801' E 124°56.713' | Hutan sekunder | Pohon | Bertengger
+Rabu, 13 Agustus 2025 | 07:29 | Perkutut Jawa (Geopelia striata) | 2 | Wanea | N 01°25.459' E 124°59.885' | Perumahan | Pohon | Berinteraksi
+Rabu, 20 Agustus 2025 | 23:17 | Gelatik Jawa (Lonchura oryzivora) | 3 | Sario | N 01°36.864' E 124°57.638' | Perumahan | Tanah | Bertengger
+Rabu, 13 Agustus 2025 | 05:15 | Jalak (Acridotheres javanicus) | 5 | Ringroad | N 01°36.262' E 124°52.973' | Semak | Tanah | Terbang
+Sabtu, 09 Agustus 2025 | 20:20 | Perkutut Jawa (Geopelia striata) | 1 | Ringroad | N 01°25.754' E 124°57.150' | Semak | Ranting | Bertengger
+Sabtu, 16 Agustus 2025 | 15:13 | Tekukur (Spilopelia chinensis) | 7 | Sario | N 01°31.585' E 124°56.084' | Semak | Pohon | Terbang
+Sabtu, 23 Agustus 2025 | 02:21 | Tekukur (Spilopelia chinensis) | 5 | Wanea | N 01°30.160' E 124°59.452' | Semak | Ranting | Bersuara
+Jumat, 08 Agustus 2025 | 19:01 | Perkutut Jawa (Geopelia striata) | 2 | Ringroad | N 01°38.931' E 124°58.349' | Sawah | Pohon | Berinteraksi
+Selasa, 26 Agustus 2025 | 00:24 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°28.553' E 124°59.397' | Pantai | Pohon | Makan
+Sabtu, 16 Agustus 2025 | 00:25 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Wanea | N 01°33.320' E 124°50.550' | Taman kota | Pohon | Berinteraksi
+Minggu, 10 Agustus 2025 | 06:42 | Jalak (Acridotheres javanicus) | 4 | Tikala | N 01°35.220' E 124°45.747' | Semak | Kabel | Berinteraksi
+Sabtu, 09 Agustus 2025 | 15:07 | Tekukur (Spilopelia chinensis) | 3 | Paal Dua | N 01°33.830' E 124°57.070' | Semak | Atap | Bersuara
+Selasa, 26 Agustus 2025 | 02:17 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°28.908' E 124°54.147' | Taman kota | Ranting | Bersuara
+Minggu, 03 Agustus 2025 | 02:03 | Gelatik Jawa (Lonchura oryzivora) | 1 | Wanea | N 01°38.435' E 124°56.423' | Sawah | Tanah | Terbang
+Jumat, 22 Agustus 2025 | 11:22 | Jalak (Acridotheres javanicus) | 3 | Tikala | N 01°38.770' E 124°45.089' | Kebun | Kabel | Berjalan
+Minggu, 10 Agustus 2025 | 08:56 | Tekukur (Spilopelia chinensis) | 6 | Wenang | N 01°37.548' E 124°46.130' | Taman kota | Tanah | Berinteraksi
+Kamis, 21 Agustus 2025 | 09:31 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Tikala | N 01°36.938' E 124°47.329' | Semak | Ranting | Berinteraksi
+Selasa, 05 Agustus 2025 | 00:04 | Jalak (Acridotheres javanicus) | 3 | Ringroad | N 01°30.981' E 124°50.942' | Kebun | Ranting | Makan
+Rabu, 27 Agustus 2025 | 16:59 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Tikala | N 01°29.229' E 124°56.732' | Semak | Pohon | Berjalan
+Senin, 25 Agustus 2025 | 01:04 | Gelatik Jawa (Lonchura oryzivora) | 1 | Malalayang | N 01°37.638' E 124°57.621' | Perumahan | Semak | Makan
+Kamis, 07 Agustus 2025 | 18:21 | Perkutut Jawa (Geopelia striata) | 3 | Tikala | N 01°35.945' E 124°50.531' | Sawah | Semak | Berinteraksi
+Jumat, 22 Agustus 2025 | 07:14 | Perkutut Jawa (Geopelia striata) | 1 | Bunaken | N 01°36.285' E 124°50.325' | Semak | Tanah | Terbang
+Minggu, 24 Agustus 2025 | 08:40 | Tekukur (Spilopelia chinensis) | 9 | Ringroad | N 01°30.810' E 124°57.739' | Kebun | Ranting | Bersuara
+Selasa, 12 Agustus 2025 | 19:47 | Jalak (Acridotheres javanicus) | 6 | Tikala | N 01°33.499' E 124°59.096' | Kebun | Tanah | Makan
+Sabtu, 30 Agustus 2025 | 20:11 | Gelatik Jawa (Lonchura oryzivora) | 5 | Wenang | N 01°36.464' E 124°56.769' | Sawah | Semak | Bersuara
+Selasa, 12 Agustus 2025 | 04:55 | Tekukur (Spilopelia chinensis) | 3 | Wanea | N 01°30.896' E 124°47.542' | Semak | Ranting | Berinteraksi
+Minggu, 10 Agustus 2025 | 08:35 | Gelatik Jawa (Lonchura oryzivora) | 8 | Tikala | N 01°37.413' E 124°53.023' | Sawah | Atap | Bersuara
+Selasa, 26 Agustus 2025 | 00:13 | Tekukur (Spilopelia chinensis) | 5 | Tikala | N 01°38.437' E 124°45.860' | Hutan sekunder | Tanah | Berinteraksi
+Jumat, 22 Agustus 2025 | 12:07 | Gelatik Jawa (Lonchura oryzivora) | 8 | Paal Dua | N 01°35.833' E 124°51.190' | Perumahan | Ranting | Berinteraksi
+Kamis, 21 Agustus 2025 | 16:59 | Perkutut Jawa (Geopelia striata) | 5 | Malalayang | N 01°32.742' E 124°59.385' | Taman kota | Tanah | Bertengger
+Sabtu, 23 Agustus 2025 | 11:20 | Jalak (Acridotheres javanicus) | 2 | Wanea | N 01°31.882' E 124°50.638' | Perumahan | Kabel | Berinteraksi
+Sabtu, 16 Agustus 2025 | 22:30 | Gelatik Jawa (Lonchura oryzivora) | 1 | Malalayang | N 01°30.645' E 124°49.593' | Pantai | Ranting | Terbang
+Jumat, 29 Agustus 2025 | 09:22 | Gelatik Jawa (Lonchura oryzivora) | 1 | Bunaken | N 01°37.541' E 124°48.343' | Pantai | Semak | Bertengger
+Kamis, 28 Agustus 2025 | 00:45 | Gelatik Jawa (Lonchura oryzivora) | 4 | Wenang | N 01°27.481' E 124°53.169' | Hutan sekunder | Pohon | Berinteraksi
+Jumat, 15 Agustus 2025 | 06:46 | Tekukur (Spilopelia chinensis) | 6 | Paal Dua | N 01°36.827' E 124°51.450' | Kebun | Pohon | Makan
+Sabtu, 09 Agustus 2025 | 11:31 | Perkutut Jawa (Geopelia striata) | 9 | Tikala | N 01°39.354' E 124°55.864' | Perumahan | Tanah | Berjalan
+Jumat, 15 Agustus 2025 | 07:24 | Jalak (Acridotheres javanicus) | 4 | Sario | N 01°37.546' E 124°52.776' | Sawah | Semak | Bersuara
+Kamis, 07 Agustus 2025 | 07:47 | Gelatik Jawa (Lonchura oryzivora) | 9 | Ringroad | N 01°36.191' E 124°54.691' | Pantai | Semak | Berinteraksi
+Sabtu, 02 Agustus 2025 | 02:34 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Tikala | N 01°35.261' E 124°45.566' | Taman kota | Ranting | Berinteraksi
+Selasa, 26 Agustus 2025 | 05:37 | Jalak (Acridotheres javanicus) | 4 | Paal Dua | N 01°25.511' E 124°53.441' | Sawah | Semak | Terbang
+Minggu, 24 Agustus 2025 | 13:12 | Perkutut Jawa (Geopelia striata) | 3 | Bunaken | N 01°31.821' E 124°56.781' | Hutan sekunder | Atap | Berjalan
+Selasa, 12 Agustus 2025 | 08:16 | Cucak Kutilang (Pycnonotus aurigaster) | 5 | Wanea | N 01°34.593' E 124°45.622' | Pantai | Pohon | Berinteraksi
+Sabtu, 02 Agustus 2025 | 02:10 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Tikala | N 01°26.493' E 124°49.673' | Semak | Ranting | Bersuara
+Sabtu, 09 Agustus 2025 | 12:07 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Malalayang | N 01°34.579' E 124°47.371' | Kebun | Ranting | Makan
+Jumat, 29 Agustus 2025 | 06:34 | Gelatik Jawa (Lonchura oryzivora) | 5 | Sario | N 01°31.853' E 124°56.373' | Kebun | Ranting | Bersuara
+Kamis, 28 Agustus 2025 | 12:58 | Tekukur (Spilopelia chinensis) | 2 | Malalayang | N 01°27.294' E 124°46.730' | Kebun | Kabel | Berinteraksi
+Kamis, 14 Agustus 2025 | 22:40 | Jalak (Acridotheres javanicus) | 2 | Paal Dua | N 01°33.015' E 124°50.340' | Taman kota | Semak | Makan
+Kamis, 21 Agustus 2025 | 12:40 | Perkutut Jawa (Geopelia striata) | 2 | Ringroad | N 01°28.693' E 124°47.551' | Hutan sekunder | Semak | Bertengger
+Selasa, 19 Agustus 2025 | 14:44 | Jalak (Acridotheres javanicus) | 2 | Wenang | N 01°36.837' E 124°48.557' | Pantai | Semak | Makan
+Selasa, 19 Agustus 2025 | 19:51 | Perkutut Jawa (Geopelia striata) | 2 | Wanea | N 01°39.019' E 124°45.425' | Semak | Tanah | Berinteraksi
+Rabu, 20 Agustus 2025 | 18:32 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Tikala | N 01°25.560' E 124°45.702' | Semak | Kabel | Bersuara
+Kamis, 14 Agustus 2025 | 19:37 | Gelatik Jawa (Lonchura oryzivora) | 5 | Bunaken | N 01°29.605' E 124°55.433' | Taman kota | Kabel | Berinteraksi
+Kamis, 28 Agustus 2025 | 20:36 | Gelatik Jawa (Lonchura oryzivora) | 2 | Ringroad | N 01°33.535' E 124°48.172' | Pantai | Kabel | Makan
+Jumat, 29 Agustus 2025 | 20:17 | Perkutut Jawa (Geopelia striata) | 5 | Malalayang | N 01°27.749' E 124°50.410' | Pantai | Ranting | Bersuara
+Sabtu, 30 Agustus 2025 | 23:55 | Tekukur (Spilopelia chinensis) | 1 | Ringroad | N 01°37.006' E 124°47.526' | Hutan sekunder | Ranting | Makan
+Rabu, 06 Agustus 2025 | 09:28 | Jalak (Acridotheres javanicus) | 5 | Malalayang | N 01°30.149' E 124°56.585' | Taman kota | Semak | Bersuara
+Minggu, 24 Agustus 2025 | 15:34 | Tekukur (Spilopelia chinensis) | 4 | Wanea | N 01°27.327' E 124°51.447' | Taman kota | Semak | Berinteraksi
+Sabtu, 23 Agustus 2025 | 18:19 | Cucak Kutilang (Pycnonotus aurigaster) | 6 | Bunaken | N 01°28.250' E 124°53.144' | Pantai | Pohon | Bertengger
+Rabu, 06 Agustus 2025 | 00:42 | Gelatik Jawa (Lonchura oryzivora) | 2 | Paal Dua | N 01°29.995' E 124°53.809' | Sawah | Ranting | Terbang
+Selasa, 19 Agustus 2025 | 10:15 | Tekukur (Spilopelia chinensis) | 1 | Malalayang | N 01°33.558' E 124°47.433' | Hutan sekunder | Kabel | Bersuara
+Kamis, 07 Agustus 2025 | 11:40 | Tekukur (Spilopelia chinensis) | 7 | Sario | N 01°30.376' E 124°52.109' | Sawah | Pohon | Terbang
+Kamis, 28 Agustus 2025 | 02:59 | Cucak Kutilang (Pycnonotus aurigaster) | 6 | Tikala | N 01°28.535' E 124°57.942' | Hutan sekunder | Ranting | Makan
+Jumat, 08 Agustus 2025 | 03:33 | Cucak Kutilang (Pycnonotus aurigaster) | 4 | Tikala | N 01°26.069' E 124°46.052' | Pantai | Kabel | Makan
+Sabtu, 09 Agustus 2025 | 10:43 | Jalak (Acridotheres javanicus) | 1 | Malalayang | N 01°35.624' E 124°45.158' | Taman kota | Tanah | Berjalan
+Selasa, 26 Agustus 2025 | 05:12 | Tekukur (Spilopelia chinensis) | 5 | Bunaken | N 01°39.321' E 124°55.328' | Taman kota | Atap | Bertengger
+Rabu, 06 Agustus 2025 | 11:52 | Gelatik Jawa (Lonchura oryzivora) | 5 | Tikala | N 01°26.547' E 124°45.865' | Kebun | Tanah | Terbang
+Sabtu, 16 Agustus 2025 | 19:41 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Sario | N 01°25.096' E 124°51.860' | Semak | Pohon | Makan
+Senin, 18 Agustus 2025 | 01:12 | Perkutut Jawa (Geopelia striata) | 3 | Paal Dua | N 01°27.436' E 124°47.443' | Hutan sekunder | Ranting | Makan
+Sabtu, 16 Agustus 2025 | 00:03 | Jalak (Acridotheres javanicus) | 3 | Ringroad | N 01°36.814' E 124°52.998' | Perumahan | Kabel | Makan
+Senin, 11 Agustus 2025 | 10:43 | Perkutut Jawa (Geopelia striata) | 1 | Tikala | N 01°36.051' E 124°55.206' | Pantai | Pohon | Bersuara
+Selasa, 05 Agustus 2025 | 09:47 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Wenang | N 01°37.549' E 124°51.141' | Semak | Ranting | Berjalan
+Jumat, 15 Agustus 2025 | 15:09 | Perkutut Jawa (Geopelia striata) | 7 | Wenang | N 01°39.584' E 124°54.956' | Sawah | Kabel | Berjalan
+Selasa, 05 Agustus 2025 | 15:12 | Perkutut Jawa (Geopelia striata) | 1 | Bunaken | N 01°36.466' E 124°50.835' | Semak | Tanah | Terbang
+Selasa, 19 Agustus 2025 | 22:38 | Gelatik Jawa (Lonchura oryzivora) | 1 | Ringroad | N 01°30.240' E 124°47.699' | Taman kota | Atap | Makan
+Selasa, 12 Agustus 2025 | 05:48 | Gelatik Jawa (Lonchura oryzivora) | 3 | Sario | N 01°25.211' E 124°54.327' | Semak | Semak | Bersuara
+Rabu, 27 Agustus 2025 | 13:11 | Tekukur (Spilopelia chinensis) | 3 | Malalayang | N 01°27.748' E 124°57.183' | Sawah | Tanah | Bertengger
+Senin, 18 Agustus 2025 | 12:38 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Wenang | N 01°32.624' E 124°51.871' | Kebun | Semak | Terbang
+Kamis, 07 Agustus 2025 | 17:03 | Jalak (Acridotheres javanicus) | 1 | Bunaken | N 01°27.171' E 124°45.320' | Sawah | Tanah | Bersuara
+Jumat, 22 Agustus 2025 | 02:10 | Gelatik Jawa (Lonchura oryzivora) | 8 | Paal Dua | N 01°32.111' E 124°49.059' | Sawah | Semak | Makan
+Minggu, 24 Agustus 2025 | 14:31 | Gelatik Jawa (Lonchura oryzivora) | 1 | Bunaken | N 01°32.749' E 124°57.429' | Taman kota | Tanah | Berinteraksi
+Kamis, 21 Agustus 2025 | 16:37 | Jalak (Acridotheres javanicus) | 2 | Wanea | N 01°28.243' E 124°55.645' | Hutan sekunder | Kabel | Terbang
+Rabu, 13 Agustus 2025 | 19:43 | Perkutut Jawa (Geopelia striata) | 5 | Wanea | N 01°31.822' E 124°57.122' | Sawah | Ranting | Bersuara
+Rabu, 27 Agustus 2025 | 05:01 | Jalak (Acridotheres javanicus) | 1 | Bunaken | N 01°27.384' E 124°53.780' | Taman kota | Semak | Berjalan
+Rabu, 20 Agustus 2025 | 06:42 | Perkutut Jawa (Geopelia striata) | 4 | Tikala | N 01°27.073' E 124°53.388' | Taman kota | Tanah | Bertengger
+Kamis, 21 Agustus 2025 | 20:31 | Perkutut Jawa (Geopelia striata) | 3 | Malalayang | N 01°30.360' E 124°53.258' | Sawah | Tanah | Berjalan
+Senin, 04 Agustus 2025 | 12:03 | Tekukur (Spilopelia chinensis) | 10 | Paal Dua | N 01°29.976' E 124°59.797' | Taman kota | Ranting | Bersuara
+Kamis, 28 Agustus 2025 | 22:51 | Tekukur (Spilopelia chinensis) | 2 | Bunaken | N 01°36.200' E 124°55.282' | Semak | Pohon | Makan
+Jumat, 01 Agustus 2025 | 23:39 | Perkutut Jawa (Geopelia striata) | 1 | Bunaken | N 01°32.603' E 124°57.372' | Hutan sekunder | Kabel | Terbang
+Sabtu, 23 Agustus 2025 | 01:19 | Tekukur (Spilopelia chinensis) | 2 | Sario | N 01°32.625' E 124°45.605' | Pantai | Atap | Bersuara
+Minggu, 10 Agustus 2025 | 15:43 | Jalak (Acridotheres javanicus) | 2 | Bunaken | N 01°34.309' E 124°55.408' | Hutan sekunder | Ranting | Berjalan
+Selasa, 26 Agustus 2025 | 15:16 | Gelatik Jawa (Lonchura oryzivora) | 3 | Wanea | N 01°26.568' E 124°52.560' | Hutan sekunder | Atap | Berinteraksi
+Jumat, 01 Agustus 2025 | 06:15 | Perkutut Jawa (Geopelia striata) | 10 | Sario | N 01°37.829' E 124°47.484' | Kebun | Atap | Terbang
+Senin, 25 Agustus 2025 | 11:58 | Tekukur (Spilopelia chinensis) | 4 | Paal Dua | N 01°35.872' E 124°59.789' | Perumahan | Atap | Berinteraksi
+Minggu, 17 Agustus 2025 | 09:04 | Tekukur (Spilopelia chinensis) | 7 | Tikala | N 01°27.727' E 124°52.674' | Semak | Pohon | Makan
+Senin, 11 Agustus 2025 | 23:02 | Gelatik Jawa (Lonchura oryzivora) | 6 | Malalayang | N 01°25.310' E 124°57.201' | Taman kota | Atap | Makan
+Senin, 04 Agustus 2025 | 21:33 | Gelatik Jawa (Lonchura oryzivora) | 1 | Wenang | N 01°26.814' E 124°49.046' | Kebun | Semak | Berinteraksi
+Minggu, 03 Agustus 2025 | 01:54 | Jalak (Acridotheres javanicus) | 2 | Sario | N 01°37.399' E 124°55.387' | Kebun | Semak | Bersuara
+Selasa, 26 Agustus 2025 | 11:02 | Gelatik Jawa (Lonchura oryzivora) | 1 | Ringroad | N 01°37.354' E 124°55.095' | Hutan sekunder | Ranting | Bersuara
+Selasa, 12 Agustus 2025 | 11:31 | Perkutut Jawa (Geopelia striata) | 7 | Ringroad | N 01°36.345' E 124°49.239' | Sawah | Semak | Berjalan
+Kamis, 14 Agustus 2025 | 06:21 | Tekukur (Spilopelia chinensis) | 2 | Wenang | N 01°34.791' E 124°50.515' | Semak | Ranting | Berinteraksi
+Rabu, 06 Agustus 2025 | 20:36 | Cucak Kutilang (Pycnonotus aurigaster) | 4 | Tikala | N 01°25.131' E 124°48.314' | Taman kota | Pohon | Bertengger
+Rabu, 13 Agustus 2025 | 01:40 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Ringroad | N 01°29.035' E 124°53.328' | Taman kota | Ranting | Berinteraksi
+Sabtu, 30 Agustus 2025 | 21:01 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Ringroad | N 01°36.913' E 124°53.301' | Taman kota | Semak | Terbang
+Sabtu, 16 Agustus 2025 | 17:33 | Jalak (Acridotheres javanicus) | 2 | Ringroad | N 01°39.397' E 124°45.277' | Kebun | Semak | Terbang
+Sabtu, 23 Agustus 2025 | 16:38 | Jalak (Acridotheres javanicus) | 3 | Ringroad | N 01°32.950' E 124°58.465' | Kebun | Pohon | Bersuara
+Selasa, 12 Agustus 2025 | 22:44 | Jalak (Acridotheres javanicus) | 3 | Tikala | N 01°34.687' E 124°58.727' | Taman kota | Tanah | Berjalan
+Sabtu, 23 Agustus 2025 | 08:41 | Tekukur (Spilopelia chinensis) | 1 | Sario | N 01°28.927' E 124°46.757' | Pantai | Semak | Berinteraksi
+Selasa, 26 Agustus 2025 | 17:53 | Gelatik Jawa (Lonchura oryzivora) | 7 | Tikala | N 01°33.542' E 124°58.818' | Hutan sekunder | Atap | Berinteraksi
+Kamis, 07 Agustus 2025 | 05:39 | Tekukur (Spilopelia chinensis) | 3 | Sario | N 01°25.310' E 124°54.416' | Perumahan | Semak | Berinteraksi
+Rabu, 20 Agustus 2025 | 14:57 | Jalak (Acridotheres javanicus) | 2 | Wanea | N 01°32.612' E 124°47.112' | Hutan sekunder | Ranting | Terbang
+Rabu, 27 Agustus 2025 | 19:12 | Tekukur (Spilopelia chinensis) | 3 | Tikala | N 01°36.800' E 124°58.893' | Taman kota | Ranting | Terbang
+Selasa, 12 Agustus 2025 | 22:33 | Perkutut Jawa (Geopelia striata) | 1 | Paal Dua | N 01°28.855' E 124°59.777' | Semak | Pohon | Terbang
+Rabu, 06 Agustus 2025 | 11:22 | Gelatik Jawa (Lonchura oryzivora) | 6 | Malalayang | N 01°37.878' E 124°55.801' | Taman kota | Atap | Bertengger
+Sabtu, 16 Agustus 2025 | 08:10 | Jalak (Acridotheres javanicus) | 3 | Ringroad | N 01°32.094' E 124°50.108' | Kebun | Ranting | Makan
+Selasa, 12 Agustus 2025 | 21:50 | Perkutut Jawa (Geopelia striata) | 3 | Wanea | N 01°36.409' E 124°58.171' | Pantai | Atap | Bertengger
+Jumat, 08 Agustus 2025 | 20:19 | Perkutut Jawa (Geopelia striata) | 5 | Sario | N 01°28.556' E 124°46.617' | Pantai | Tanah | Bersuara
+Senin, 04 Agustus 2025 | 09:04 | Jalak (Acridotheres javanicus) | 3 | Malalayang | N 01°31.573' E 124°50.050' | Kebun | Ranting | Terbang
+Sabtu, 30 Agustus 2025 | 13:47 | Gelatik Jawa (Lonchura oryzivora) | 5 | Wanea | N 01°34.075' E 124°58.463' | Hutan sekunder | Tanah | Makan
+Sabtu, 16 Agustus 2025 | 21:06 | Cucak Kutilang (Pycnonotus aurigaster) | 8 | Malalayang | N 01°36.345' E 124°46.194' | Hutan sekunder | Semak | Bersuara
+Kamis, 21 Agustus 2025 | 06:01 | Perkutut Jawa (Geopelia striata) | 2 | Paal Dua | N 01°38.574' E 124°52.171' | Kebun | Kabel | Bertengger
+Kamis, 28 Agustus 2025 | 23:52 | Jalak (Acridotheres javanicus) | 4 | Paal Dua | N 01°25.300' E 124°58.640' | Perumahan | Ranting | Terbang
+Rabu, 13 Agustus 2025 | 05:53 | Perkutut Jawa (Geopelia striata) | 2 | Sario | N 01°28.004' E 124°52.595' | Perumahan | Ranting | Bertengger
+Rabu, 06 Agustus 2025 | 23:11 | Jalak (Acridotheres javanicus) | 1 | Paal Dua | N 01°37.066' E 124°54.675' | Taman kota | Atap | Berinteraksi
+Minggu, 17 Agustus 2025 | 11:38 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Wenang | N 01°28.315' E 124°53.686' | Hutan sekunder | Ranting | Bersuara
+Senin, 18 Agustus 2025 | 12:52 | Jalak (Acridotheres javanicus) | 6 | Tikala | N 01°28.842' E 124°50.652' | Perumahan | Atap | Bertengger
+Kamis, 28 Agustus 2025 | 07:20 | Tekukur (Spilopelia chinensis) | 5 | Tikala | N 01°38.316' E 124°57.302' | Taman kota | Pohon | Berinteraksi
+Rabu, 06 Agustus 2025 | 19:15 | Perkutut Jawa (Geopelia striata) | 1 | Tikala | N 01°25.339' E 124°54.809' | Taman kota | Ranting | Berinteraksi
+Jumat, 29 Agustus 2025 | 15:37 | Tekukur (Spilopelia chinensis) | 4 | Ringroad | N 01°26.119' E 124°56.262' | Kebun | Semak | Makan
+Kamis, 07 Agustus 2025 | 04:02 | Perkutut Jawa (Geopelia striata) | 1 | Tikala | N 01°27.137' E 124°51.215' | Taman kota | Pohon | Berinteraksi
+Sabtu, 30 Agustus 2025 | 14:07 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Ringroad | N 01°35.304' E 124°47.810' | Taman kota | Semak | Berinteraksi
+Kamis, 07 Agustus 2025 | 04:38 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Bunaken | N 01°36.627' E 124°55.702' | Taman kota | Tanah | Berjalan
+Minggu, 24 Agustus 2025 | 10:51 | Jalak (Acridotheres javanicus) | 3 | Wanea | N 01°30.125' E 124°58.850' | Hutan sekunder | Kabel | Terbang
+Sabtu, 30 Agustus 2025 | 18:49 | Perkutut Jawa (Geopelia striata) | 5 | Bunaken | N 01°25.130' E 124°45.384' | Taman kota | Ranting | Bersuara
+Jumat, 22 Agustus 2025 | 10:25 | Tekukur (Spilopelia chinensis) | 1 | Wanea | N 01°28.687' E 124°49.576' | Kebun | Semak | Bertengger
+Jumat, 29 Agustus 2025 | 23:05 | Perkutut Jawa (Geopelia striata) | 2 | Wanea | N 01°36.009' E 124°46.457' | Perumahan | Tanah | Terbang
+Senin, 11 Agustus 2025 | 19:23 | Tekukur (Spilopelia chinensis) | 1 | Tikala | N 01°30.451' E 124°50.841' | Kebun | Semak | Berinteraksi
+Jumat, 01 Agustus 2025 | 18:21 | Tekukur (Spilopelia chinensis) | 7 | Ringroad | N 01°25.983' E 124°55.173' | Perumahan | Atap | Terbang
+Jumat, 08 Agustus 2025 | 18:13 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Sario | N 01°28.072' E 124°55.209' | Sawah | Tanah | Bersuara
+Kamis, 14 Agustus 2025 | 19:40 | Tekukur (Spilopelia chinensis) | 5 | Wanea | N 01°35.433' E 124°47.500' | Pantai | Semak | Terbang
+Jumat, 29 Agustus 2025 | 11:22 | Perkutut Jawa (Geopelia striata) | 8 | Malalayang | N 01°35.313' E 124°49.362' | Perumahan | Kabel | Berjalan
+Minggu, 24 Agustus 2025 | 16:20 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Wanea | N 01°37.537' E 124°59.191' | Taman kota | Kabel | Terbang
+Selasa, 05 Agustus 2025 | 00:44 | Perkutut Jawa (Geopelia striata) | 8 | Paal Dua | N 01°28.524' E 124°52.722' | Sawah | Pohon | Terbang
+Kamis, 14 Agustus 2025 | 09:07 | Cucak Kutilang (Pycnonotus aurigaster) | 5 | Tikala | N 01°28.071' E 124°48.971' | Taman kota | Semak | Berinteraksi
+Selasa, 26 Agustus 2025 | 13:19 | Gelatik Jawa (Lonchura oryzivora) | 9 | Ringroad | N 01°39.099' E 124°58.293' | Hutan sekunder | Kabel | Bersuara
+Kamis, 07 Agustus 2025 | 03:23 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Bunaken | N 01°35.474' E 124°54.363' | Perumahan | Tanah | Berjalan
+Jumat, 08 Agustus 2025 | 11:25 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Wanea | N 01°34.964' E 124°52.012' | Kebun | Semak | Berjalan
+Minggu, 17 Agustus 2025 | 14:12 | Gelatik Jawa (Lonchura oryzivora) | 2 | Sario | N 01°30.036' E 124°53.429' | Pantai | Tanah | Bertengger
+Jumat, 15 Agustus 2025 | 19:30 | Perkutut Jawa (Geopelia striata) | 1 | Tikala | N 01°26.311' E 124°57.646' | Hutan sekunder | Pohon | Berinteraksi
+Jumat, 01 Agustus 2025 | 10:54 | Tekukur (Spilopelia chinensis) | 1 | Tikala | N 01°27.202' E 124°58.493' | Sawah | Atap | Makan
+Selasa, 26 Agustus 2025 | 02:40 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Bunaken | N 01°38.144' E 124°57.995' | Sawah | Kabel | Berinteraksi
+Rabu, 13 Agustus 2025 | 18:02 | Tekukur (Spilopelia chinensis) | 1 | Wanea | N 01°36.069' E 124°55.367' | Kebun | Kabel | Terbang
+Rabu, 20 Agustus 2025 | 01:31 | Gelatik Jawa (Lonchura oryzivora) | 8 | Bunaken | N 01°25.876' E 124°59.860' | Perumahan | Atap | Makan
+Jumat, 01 Agustus 2025 | 07:32 | Perkutut Jawa (Geopelia striata) | 3 | Paal Dua | N 01°26.187' E 124°46.710' | Sawah | Semak | Bertengger
+Jumat, 22 Agustus 2025 | 08:42 | Jalak (Acridotheres javanicus) | 4 | Ringroad | N 01°28.691' E 124°45.934' | Taman kota | Ranting | Berjalan
+Kamis, 07 Agustus 2025 | 19:50 | Gelatik Jawa (Lonchura oryzivora) | 9 | Ringroad | N 01°26.987' E 124°48.831' | Taman kota | Kabel | Makan
+Sabtu, 16 Agustus 2025 | 13:30 | Jalak (Acridotheres javanicus) | 2 | Ringroad | N 01°28.462' E 124°47.282' | Semak | Atap | Berjalan
+Jumat, 08 Agustus 2025 | 13:53 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Malalayang | N 01°39.002' E 124°52.250' | Hutan sekunder | Semak | Berjalan
+Kamis, 14 Agustus 2025 | 06:39 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Ringroad | N 01°35.403' E 124°57.035' | Hutan sekunder | Ranting | Makan
+Rabu, 06 Agustus 2025 | 21:35 | Jalak (Acridotheres javanicus) | 3 | Tikala | N 01°37.425' E 124°57.863' | Kebun | Semak | Makan
+Senin, 18 Agustus 2025 | 18:10 | Gelatik Jawa (Lonchura oryzivora) | 9 | Sario | N 01°29.231' E 124°54.341' | Sawah | Kabel | Makan
+Kamis, 28 Agustus 2025 | 07:57 | Jalak (Acridotheres javanicus) | 7 | Tikala | N 01°38.897' E 124°52.306' | Sawah | Atap | Berjalan
+Kamis, 28 Agustus 2025 | 05:02 | Tekukur (Spilopelia chinensis) | 1 | Malalayang | N 01°39.658' E 124°45.652' | Semak | Pohon | Bertengger
+Senin, 11 Agustus 2025 | 17:58 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Paal Dua | N 01°28.501' E 124°46.044' | Semak | Ranting | Berinteraksi
+Sabtu, 16 Agustus 2025 | 21:26 | Cucak Kutilang (Pycnonotus aurigaster) | 4 | Tikala | N 01°29.910' E 124°56.184' | Taman kota | Semak | Bertengger
+Minggu, 17 Agustus 2025 | 11:16 | Jalak (Acridotheres javanicus) | 4 | Wenang | N 01°31.932' E 124°57.108' | Hutan sekunder | Ranting | Terbang
+Sabtu, 23 Agustus 2025 | 10:48 | Perkutut Jawa (Geopelia striata) | 1 | Malalayang | N 01°34.852' E 124°54.126' | Kebun | Atap | Makan
+Sabtu, 30 Agustus 2025 | 03:37 | Gelatik Jawa (Lonchura oryzivora) | 1 | Tikala | N 01°29.537' E 124°57.053' | Kebun | Semak | Berjalan
+Selasa, 05 Agustus 2025 | 18:11 | Jalak (Acridotheres javanicus) | 1 | Ringroad | N 01°35.711' E 124°50.852' | Taman kota | Semak | Terbang
+Sabtu, 30 Agustus 2025 | 12:55 | Jalak (Acridotheres javanicus) | 5 | Wenang | N 01°28.462' E 124°46.412' | Sawah | Kabel | Makan
+Selasa, 05 Agustus 2025 | 16:03 | Tekukur (Spilopelia chinensis) | 2 | Bunaken | N 01°25.416' E 124°58.974' | Kebun | Ranting | Terbang
+Selasa, 26 Agustus 2025 | 17:15 | Jalak (Acridotheres javanicus) | 5 | Wenang | N 01°38.137' E 124°50.280' | Semak | Atap | Bertengger
+Selasa, 05 Agustus 2025 | 14:07 | Cucak Kutilang (Pycnonotus aurigaster) | 10 | Wanea | N 01°34.661' E 124°45.169' | Perumahan | Semak | Terbang
+Rabu, 20 Agustus 2025 | 19:16 | Perkutut Jawa (Geopelia striata) | 3 | Ringroad | N 01°30.507' E 124°49.367' | Sawah | Semak | Berjalan
+Selasa, 26 Agustus 2025 | 16:57 | Perkutut Jawa (Geopelia striata) | 2 | Sario | N 01°27.499' E 124°46.691' | Hutan sekunder | Pohon | Bersuara
+Jumat, 15 Agustus 2025 | 06:51 | Perkutut Jawa (Geopelia striata) | 6 | Bunaken | N 01°36.293' E 124°54.421' | Taman kota | Atap | Berinteraksi
+Kamis, 28 Agustus 2025 | 08:49 | Gelatik Jawa (Lonchura oryzivora) | 3 | Ringroad | N 01°36.632' E 124°48.692' | Taman kota | Ranting | Berinteraksi
+Jumat, 22 Agustus 2025 | 17:43 | Perkutut Jawa (Geopelia striata) | 5 | Wenang | N 01°39.228' E 124°54.793' | Kebun | Kabel | Makan
+Selasa, 12 Agustus 2025 | 13:48 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Ringroad | N 01°29.403' E 124°57.750' | Kebun | Atap | Makan
+Selasa, 12 Agustus 2025 | 18:11 | Jalak (Acridotheres javanicus) | 3 | Ringroad | N 01°36.076' E 124°56.693' | Kebun | Ranting | Terbang
+Sabtu, 30 Agustus 2025 | 18:06 | Gelatik Jawa (Lonchura oryzivora) | 6 | Tikala | N 01°35.701' E 124°47.594' | Kebun | Ranting | Makan
+Jumat, 08 Agustus 2025 | 08:28 | Perkutut Jawa (Geopelia striata) | 1 | Bunaken | N 01°37.975' E 124°58.795' | Sawah | Atap | Bertengger
+Jumat, 01 Agustus 2025 | 10:34 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Sario | N 01°36.844' E 124°48.366' | Perumahan | Atap | Berjalan
+Minggu, 17 Agustus 2025 | 05:53 | Perkutut Jawa (Geopelia striata) | 3 | Sario | N 01°28.154' E 124°57.122' | Hutan sekunder | Kabel | Terbang
+Senin, 18 Agustus 2025 | 15:46 | Gelatik Jawa (Lonchura oryzivora) | 6 | Bunaken | N 01°26.600' E 124°53.805' | Kebun | Atap | Berjalan
+Senin, 18 Agustus 2025 | 17:44 | Jalak (Acridotheres javanicus) | 3 | Tikala | N 01°37.745' E 124°52.189' | Taman kota | Atap | Makan
+Selasa, 19 Agustus 2025 | 15:05 | Perkutut Jawa (Geopelia striata) | 6 | Ringroad | N 01°29.641' E 124°52.679' | Semak | Ranting | Berinteraksi
+Jumat, 29 Agustus 2025 | 09:22 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Malalayang | N 01°35.135' E 124°45.053' | Pantai | Tanah | Bersuara
+Kamis, 28 Agustus 2025 | 15:46 | Jalak (Acridotheres javanicus) | 4 | Malalayang | N 01°29.812' E 124°48.415' | Hutan sekunder | Ranting | Bersuara
+Jumat, 01 Agustus 2025 | 04:13 | Tekukur (Spilopelia chinensis) | 5 | Ringroad | N 01°32.064' E 124°53.599' | Semak | Kabel | Berinteraksi
+Kamis, 14 Agustus 2025 | 09:20 | Perkutut Jawa (Geopelia striata) | 2 | Ringroad | N 01°38.865' E 124°54.007' | Sawah | Ranting | Berinteraksi
+Senin, 25 Agustus 2025 | 14:47 | Jalak (Acridotheres javanicus) | 5 | Wanea | N 01°30.336' E 124°52.854' | Semak | Kabel | Bersuara
+Sabtu, 09 Agustus 2025 | 19:20 | Perkutut Jawa (Geopelia striata) | 6 | Wanea | N 01°28.258' E 124°45.612' | Hutan sekunder | Atap | Berjalan
+Rabu, 06 Agustus 2025 | 17:47 | Gelatik Jawa (Lonchura oryzivora) | 2 | Malalayang | N 01°32.630' E 124°51.989' | Taman kota | Tanah | Terbang
+Minggu, 10 Agustus 2025 | 11:58 | Jalak (Acridotheres javanicus) | 5 | Malalayang | N 01°32.358' E 124°59.130' | Kebun | Atap | Berjalan
+Minggu, 10 Agustus 2025 | 05:36 | Perkutut Jawa (Geopelia striata) | 4 | Tikala | N 01°39.901' E 124°55.870' | Sawah | Pohon | Bersuara
+Minggu, 17 Agustus 2025 | 19:05 | Perkutut Jawa (Geopelia striata) | 3 | Wanea | N 01°29.905' E 124°57.044' | Pantai | Tanah | Bersuara
+Selasa, 19 Agustus 2025 | 07:21 | Tekukur (Spilopelia chinensis) | 1 | Wenang | N 01°36.835' E 124°59.077' | Perumahan | Ranting | Bertengger
+Minggu, 17 Agustus 2025 | 10:56 | Cucak Kutilang (Pycnonotus aurigaster) | 5 | Bunaken | N 01°27.048' E 124°50.684' | Pantai | Semak | Bertengger
+Rabu, 20 Agustus 2025 | 06:17 | Perkutut Jawa (Geopelia striata) | 4 | Bunaken | N 01°37.806' E 124°49.979' | Pantai | Atap | Makan
+Jumat, 15 Agustus 2025 | 01:57 | Gelatik Jawa (Lonchura oryzivora) | 3 | Sario | N 01°38.970' E 124°57.861' | Hutan sekunder | Ranting | Berjalan
+Sabtu, 09 Agustus 2025 | 15:18 | Tekukur (Spilopelia chinensis) | 3 | Paal Dua | N 01°25.636' E 124°49.249' | Semak | Tanah | Berinteraksi
+Sabtu, 23 Agustus 2025 | 11:09 | Cucak Kutilang (Pycnonotus aurigaster) | 6 | Wanea | N 01°33.210' E 124°56.905' | Kebun | Tanah | Terbang
+Kamis, 21 Agustus 2025 | 19:41 | Gelatik Jawa (Lonchura oryzivora) | 1 | Tikala | N 01°35.862' E 124°54.420' | Kebun | Atap | Makan
+Kamis, 28 Agustus 2025 | 19:46 | Gelatik Jawa (Lonchura oryzivora) | 9 | Bunaken | N 01°26.522' E 124°54.180' | Perumahan | Ranting | Makan
+Selasa, 26 Agustus 2025 | 03:48 | Jalak (Acridotheres javanicus) | 4 | Wenang | N 01°34.757' E 124°48.083' | Sawah | Kabel | Berinteraksi
+Kamis, 28 Agustus 2025 | 19:50 | Jalak (Acridotheres javanicus) | 7 | Tikala | N 01°39.810' E 124°47.284' | Kebun | Pohon | Berinteraksi
+Sabtu, 02 Agustus 2025 | 10:49 | Tekukur (Spilopelia chinensis) | 3 | Wanea | N 01°32.061' E 124°45.403' | Hutan sekunder | Semak | Terbang
+Sabtu, 09 Agustus 2025 | 19:10 | Jalak (Acridotheres javanicus) | 2 | Wanea | N 01°34.371' E 124°50.937' | Hutan sekunder | Kabel | Makan
+Rabu, 20 Agustus 2025 | 05:02 | Gelatik Jawa (Lonchura oryzivora) | 1 | Bunaken | N 01°37.025' E 124°50.310' | Hutan sekunder | Kabel | Berinteraksi
+Jumat, 29 Agustus 2025 | 11:40 | Tekukur (Spilopelia chinensis) | 1 | Malalayang | N 01°35.642' E 124°49.739' | Perumahan | Pohon | Bertengger
+Senin, 18 Agustus 2025 | 09:34 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Malalayang | N 01°36.577' E 124°45.690' | Kebun | Tanah | Makan
+Senin, 18 Agustus 2025 | 02:50 | Perkutut Jawa (Geopelia striata) | 3 | Wanea | N 01°33.897' E 124°48.189' | Taman kota | Atap | Terbang
+Selasa, 19 Agustus 2025 | 01:01 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Tikala | N 01°25.009' E 124°51.322' | Taman kota | Atap | Bertengger
+Rabu, 13 Agustus 2025 | 18:07 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Paal Dua | N 01°38.092' E 124°52.193' | Semak | Ranting | Bersuara
+Jumat, 22 Agustus 2025 | 06:21 | Perkutut Jawa (Geopelia striata) | 2 | Wenang | N 01°38.702' E 124°52.011' | Sawah | Semak | Bertengger
+Selasa, 12 Agustus 2025 | 20:57 | Jalak (Acridotheres javanicus) | 2 | Wanea | N 01°35.208' E 124°45.478' | Semak | Kabel | Terbang
+Sabtu, 23 Agustus 2025 | 08:06 | Tekukur (Spilopelia chinensis) | 6 | Ringroad | N 01°30.659' E 124°56.586' | Pantai | Ranting | Bertengger
+Rabu, 27 Agustus 2025 | 21:32 | Tekukur (Spilopelia chinensis) | 3 | Bunaken | N 01°33.391' E 124°46.618' | Pantai | Semak | Bertengger
+Minggu, 17 Agustus 2025 | 09:01 | Tekukur (Spilopelia chinensis) | 1 | Paal Dua | N 01°33.614' E 124°53.279' | Kebun | Semak | Berjalan
+Minggu, 17 Agustus 2025 | 14:45 | Gelatik Jawa (Lonchura oryzivora) | 2 | Bunaken | N 01°25.841' E 124°57.723' | Kebun | Tanah | Terbang
+Minggu, 03 Agustus 2025 | 23:50 | Jalak (Acridotheres javanicus) | 4 | Bunaken | N 01°39.993' E 124°46.668' | Semak | Kabel | Makan
+Sabtu, 02 Agustus 2025 | 21:42 | Gelatik Jawa (Lonchura oryzivora) | 3 | Paal Dua | N 01°39.921' E 124°54.020' | Pantai | Atap | Bersuara
+Kamis, 21 Agustus 2025 | 05:36 | Gelatik Jawa (Lonchura oryzivora) | 2 | Malalayang | N 01°27.635' E 124°48.706' | Hutan sekunder | Kabel | Terbang
+Sabtu, 23 Agustus 2025 | 07:22 | Gelatik Jawa (Lonchura oryzivora) | 10 | Wanea | N 01°31.123' E 124°59.452' | Pantai | Atap | Berinteraksi
+Minggu, 24 Agustus 2025 | 14:04 | Perkutut Jawa (Geopelia striata) | 4 | Sario | N 01°34.931' E 124°45.324' | Sawah | Pohon | Berinteraksi
+Rabu, 13 Agustus 2025 | 20:41 | Gelatik Jawa (Lonchura oryzivora) | 4 | Malalayang | N 01°30.046' E 124°55.020' | Pantai | Tanah | Berinteraksi
+Selasa, 26 Agustus 2025 | 08:56 | Tekukur (Spilopelia chinensis) | 4 | Ringroad | N 01°28.874' E 124°49.144' | Hutan sekunder | Atap | Terbang
+Senin, 04 Agustus 2025 | 02:09 | Gelatik Jawa (Lonchura oryzivora) | 9 | Sario | N 01°29.613' E 124°58.836' | Taman kota | Ranting | Berinteraksi
+Selasa, 26 Agustus 2025 | 12:27 | Tekukur (Spilopelia chinensis) | 9 | Bunaken | N 01°26.984' E 124°45.604' | Kebun | Ranting | Berinteraksi
+Selasa, 05 Agustus 2025 | 04:41 | Perkutut Jawa (Geopelia striata) | 5 | Paal Dua | N 01°27.164' E 124°56.114' | Pantai | Atap | Berinteraksi
+Rabu, 20 Agustus 2025 | 09:16 | Gelatik Jawa (Lonchura oryzivora) | 5 | Wenang | N 01°25.588' E 124°49.742' | Sawah | Pohon | Makan
+Senin, 11 Agustus 2025 | 05:06 | Cucak Kutilang (Pycnonotus aurigaster) | 8 | Paal Dua | N 01°34.304' E 124°50.306' | Perumahan | Kabel | Bersuara
+Jumat, 15 Agustus 2025 | 01:30 | Jalak (Acridotheres javanicus) | 5 | Paal Dua | N 01°39.495' E 124°45.646' | Sawah | Pohon | Berinteraksi
+Rabu, 27 Agustus 2025 | 21:11 | Tekukur (Spilopelia chinensis) | 1 | Malalayang | N 01°27.787' E 124°49.579' | Perumahan | Semak | Bersuara
+Kamis, 21 Agustus 2025 | 14:58 | Gelatik Jawa (Lonchura oryzivora) | 4 | Wanea | N 01°33.825' E 124°50.941' | Perumahan | Semak | Terbang
+Jumat, 01 Agustus 2025 | 01:35 | Perkutut Jawa (Geopelia striata) | 1 | Malalayang | N 01°35.401' E 124°48.015' | Sawah | Tanah | Bersuara
+Kamis, 28 Agustus 2025 | 21:47 | Jalak (Acridotheres javanicus) | 7 | Paal Dua | N 01°34.605' E 124°56.556' | Kebun | Pohon | Bersuara
+Jumat, 01 Agustus 2025 | 19:37 | Tekukur (Spilopelia chinensis) | 3 | Wanea | N 01°30.309' E 124°58.206' | Sawah | Pohon | Bersuara
+Minggu, 17 Agustus 2025 | 22:25 | Jalak (Acridotheres javanicus) | 5 | Tikala | N 01°33.893' E 124°58.191' | Sawah | Tanah | Bersuara
+Sabtu, 30 Agustus 2025 | 12:46 | Gelatik Jawa (Lonchura oryzivora) | 9 | Ringroad | N 01°29.281' E 124°57.997' | Kebun | Atap | Bersuara
+Sabtu, 30 Agustus 2025 | 23:38 | Gelatik Jawa (Lonchura oryzivora) | 7 | Tikala | N 01°37.162' E 124°57.893' | Pantai | Ranting | Berinteraksi
+Senin, 04 Agustus 2025 | 12:05 | Perkutut Jawa (Geopelia striata) | 2 | Paal Dua | N 01°30.749' E 124°56.504' | Sawah | Ranting | Berinteraksi
+Kamis, 07 Agustus 2025 | 16:04 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Malalayang | N 01°37.770' E 124°54.307' | Pantai | Ranting | Berinteraksi
+Sabtu, 23 Agustus 2025 | 11:53 | Tekukur (Spilopelia chinensis) | 6 | Wanea | N 01°32.686' E 124°58.978' | Semak | Pohon | Berjalan
+Minggu, 17 Agustus 2025 | 21:09 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°30.673' E 124°48.816' | Perumahan | Semak | Terbang
+Jumat, 22 Agustus 2025 | 14:12 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Bunaken | N 01°36.460' E 124°49.496' | Taman kota | Atap | Bersuara
+Senin, 25 Agustus 2025 | 16:17 | Tekukur (Spilopelia chinensis) | 6 | Wanea | N 01°37.645' E 124°45.214' | Perumahan | Tanah | Bertengger
+Jumat, 01 Agustus 2025 | 22:44 | Jalak (Acridotheres javanicus) | 2 | Wanea | N 01°39.597' E 124°46.113' | Pantai | Semak | Bertengger
+Rabu, 27 Agustus 2025 | 20:40 | Perkutut Jawa (Geopelia striata) | 7 | Bunaken | N 01°25.775' E 124°56.646' | Perumahan | Atap | Berjalan
+Selasa, 05 Agustus 2025 | 06:51 | Jalak (Acridotheres javanicus) | 1 | Wanea | N 01°30.028' E 124°53.370' | Perumahan | Kabel | Terbang
+Sabtu, 02 Agustus 2025 | 21:15 | Gelatik Jawa (Lonchura oryzivora) | 2 | Wenang | N 01°25.886' E 124°53.357' | Hutan sekunder | Semak | Terbang
+Senin, 04 Agustus 2025 | 09:29 | Tekukur (Spilopelia chinensis) | 10 | Malalayang | N 01°34.865' E 124°53.192' | Hutan sekunder | Semak | Terbang
+Kamis, 21 Agustus 2025 | 19:16 | Tekukur (Spilopelia chinensis) | 2 | Wenang | N 01°25.729' E 124°53.434' | Taman kota | Ranting | Makan
+Selasa, 05 Agustus 2025 | 09:24 | Gelatik Jawa (Lonchura oryzivora) | 2 | Malalayang | N 01°25.031' E 124°51.118' | Taman kota | Tanah | Makan
+Selasa, 05 Agustus 2025 | 18:27 | Jalak (Acridotheres javanicus) | 4 | Wenang | N 01°30.427' E 124°59.478' | Sawah | Kabel | Berjalan
+Minggu, 10 Agustus 2025 | 04:04 | Perkutut Jawa (Geopelia striata) | 1 | Wanea | N 01°29.557' E 124°48.879' | Taman kota | Kabel | Bertengger
+Sabtu, 16 Agustus 2025 | 19:43 | Gelatik Jawa (Lonchura oryzivora) | 2 | Sario | N 01°37.937' E 124°48.218' | Semak | Ranting | Terbang
+Selasa, 12 Agustus 2025 | 16:25 | Gelatik Jawa (Lonchura oryzivora) | 4 | Sario | N 01°28.754' E 124°59.754' | Hutan sekunder | Pohon | Makan
+Jumat, 01 Agustus 2025 | 17:47 | Gelatik Jawa (Lonchura oryzivora) | 1 | Bunaken | N 01°34.803' E 124°54.563' | Perumahan | Semak | Berinteraksi
+Selasa, 26 Agustus 2025 | 20:00 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Sario | N 01°36.711' E 124°54.105' | Pantai | Tanah | Berjalan
+Selasa, 19 Agustus 2025 | 12:30 | Tekukur (Spilopelia chinensis) | 2 | Bunaken | N 01°29.179' E 124°50.389' | Kebun | Semak | Bersuara
+Sabtu, 30 Agustus 2025 | 22:39 | Jalak (Acridotheres javanicus) | 3 | Tikala | N 01°35.671' E 124°51.246' | Pantai | Ranting | Terbang
+Sabtu, 16 Agustus 2025 | 18:37 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Wanea | N 01°33.450' E 124°52.644' | Perumahan | Semak | Bersuara
+Kamis, 21 Agustus 2025 | 00:12 | Cucak Kutilang (Pycnonotus aurigaster) | 4 | Ringroad | N 01°30.313' E 124°49.217' | Hutan sekunder | Pohon | Bertengger
+Jumat, 15 Agustus 2025 | 04:01 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Wenang | N 01°38.874' E 124°48.151' | Sawah | Atap | Bertengger
+Selasa, 19 Agustus 2025 | 00:00 | Jalak (Acridotheres javanicus) | 2 | Malalayang | N 01°32.168' E 124°50.133' | Kebun | Semak | Berjalan
+Kamis, 21 Agustus 2025 | 16:38 | Jalak (Acridotheres javanicus) | 3 | Sario | N 01°35.269' E 124°57.172' | Sawah | Kabel | Berinteraksi
+Selasa, 19 Agustus 2025 | 10:26 | Gelatik Jawa (Lonchura oryzivora) | 5 | Sario | N 01°32.763' E 124°54.365' | Semak | Kabel | Berinteraksi
+Kamis, 28 Agustus 2025 | 01:19 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Tikala | N 01°26.862' E 124°45.070' | Perumahan | Kabel | Berinteraksi
+Jumat, 15 Agustus 2025 | 00:56 | Tekukur (Spilopelia chinensis) | 1 | Sario | N 01°34.676' E 124°47.016' | Perumahan | Kabel | Berjalan
+Senin, 11 Agustus 2025 | 01:09 | Tekukur (Spilopelia chinensis) | 1 | Wenang | N 01°38.051' E 124°48.946' | Perumahan | Atap | Berjalan
+Sabtu, 23 Agustus 2025 | 15:25 | Jalak (Acridotheres javanicus) | 2 | Tikala | N 01°31.055' E 124°51.133' | Hutan sekunder | Atap | Makan
+Minggu, 03 Agustus 2025 | 04:09 | Cucak Kutilang (Pycnonotus aurigaster) | 8 | Malalayang | N 01°28.784' E 124°45.034' | Pantai | Tanah | Bersuara
+Sabtu, 16 Agustus 2025 | 01:13 | Cucak Kutilang (Pycnonotus aurigaster) | 9 | Wanea | N 01°33.451' E 124°53.133' | Pantai | Pohon | Berjalan
+Jumat, 29 Agustus 2025 | 10:54 | Gelatik Jawa (Lonchura oryzivora) | 4 | Tikala | N 01°27.396' E 124°48.383' | Taman kota | Semak | Berinteraksi
+Kamis, 28 Agustus 2025 | 14:46 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Wanea | N 01°25.357' E 124°55.037' | Sawah | Tanah | Bersuara
+Jumat, 08 Agustus 2025 | 10:50 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Bunaken | N 01°31.522' E 124°58.755' | Perumahan | Kabel | Makan
+Minggu, 17 Agustus 2025 | 11:31 | Cucak Kutilang (Pycnonotus aurigaster) | 9 | Malalayang | N 01°36.614' E 124°54.356' | Semak | Tanah | Terbang
+Sabtu, 09 Agustus 2025 | 22:15 | Perkutut Jawa (Geopelia striata) | 2 | Malalayang | N 01°37.986' E 124°54.076' | Semak | Atap | Berinteraksi
+Kamis, 07 Agustus 2025 | 03:00 | Gelatik Jawa (Lonchura oryzivora) | 8 | Paal Dua | N 01°25.210' E 124°59.706' | Pantai | Pohon | Bersuara
+Minggu, 24 Agustus 2025 | 23:02 | Cucak Kutilang (Pycnonotus aurigaster) | 9 | Paal Dua | N 01°35.563' E 124°52.402' | Sawah | Semak | Bersuara
+Senin, 18 Agustus 2025 | 01:03 | Jalak (Acridotheres javanicus) | 1 | Sario | N 01°39.487' E 124°59.150' | Sawah | Kabel | Bersuara
+Sabtu, 09 Agustus 2025 | 22:31 | Jalak (Acridotheres javanicus) | 1 | Malalayang | N 01°30.163' E 124°46.505' | Kebun | Atap | Bertengger
+Minggu, 24 Agustus 2025 | 05:18 | Jalak (Acridotheres javanicus) | 3 | Bunaken | N 01°25.596' E 124°57.042' | Pantai | Pohon | Makan
+Selasa, 12 Agustus 2025 | 17:38 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Paal Dua | N 01°26.353' E 124°57.465' | Taman kota | Pohon | Berjalan
+Jumat, 22 Agustus 2025 | 06:56 | Gelatik Jawa (Lonchura oryzivora) | 2 | Paal Dua | N 01°26.157' E 124°58.469' | Semak | Semak | Makan
+Minggu, 17 Agustus 2025 | 15:21 | Gelatik Jawa (Lonchura oryzivora) | 5 | Bunaken | N 01°37.710' E 124°50.237' | Hutan sekunder | Semak | Bersuara
+Senin, 25 Agustus 2025 | 03:54 | Gelatik Jawa (Lonchura oryzivora) | 8 | Wenang | N 01°31.029' E 124°58.463' | Semak | Pohon | Bertengger
+Minggu, 10 Agustus 2025 | 00:32 | Perkutut Jawa (Geopelia striata) | 2 | Sario | N 01°34.947' E 124°55.809' | Perumahan | Ranting | Terbang
+Senin, 25 Agustus 2025 | 16:33 | Gelatik Jawa (Lonchura oryzivora) | 3 | Sario | N 01°25.804' E 124°50.858' | Perumahan | Tanah | Terbang
+Rabu, 27 Agustus 2025 | 06:19 | Jalak (Acridotheres javanicus) | 1 | Ringroad | N 01°26.716' E 124°47.146' | Taman kota | Pohon | Makan
+Jumat, 08 Agustus 2025 | 22:27 | Tekukur (Spilopelia chinensis) | 1 | Wenang | N 01°28.686' E 124°55.436' | Pantai | Semak | Berinteraksi
+Sabtu, 09 Agustus 2025 | 17:24 | Jalak (Acridotheres javanicus) | 3 | Malalayang | N 01°32.784' E 124°49.130' | Taman kota | Ranting | Makan
+Kamis, 14 Agustus 2025 | 19:36 | Gelatik Jawa (Lonchura oryzivora) | 3 | Sario | N 01°31.551' E 124°48.841' | Perumahan | Pohon | Bertengger
+Sabtu, 02 Agustus 2025 | 01:56 | Gelatik Jawa (Lonchura oryzivora) | 2 | Ringroad | N 01°35.211' E 124°47.782' | Kebun | Kabel | Bertengger
+Sabtu, 09 Agustus 2025 | 07:17 | Perkutut Jawa (Geopelia striata) | 1 | Tikala | N 01°32.320' E 124°56.699' | Semak | Tanah | Bertengger
+Kamis, 14 Agustus 2025 | 17:46 | Gelatik Jawa (Lonchura oryzivora) | 1 | Wenang | N 01°31.411' E 124°50.947' | Perumahan | Pohon | Bertengger
+Selasa, 26 Agustus 2025 | 13:30 | Jalak (Acridotheres javanicus) | 8 | Paal Dua | N 01°30.554' E 124°48.905' | Taman kota | Atap | Berinteraksi
+Selasa, 26 Agustus 2025 | 17:32 | Tekukur (Spilopelia chinensis) | 7 | Malalayang | N 01°26.796' E 124°49.778' | Pantai | Ranting | Bertengger
+Selasa, 26 Agustus 2025 | 05:09 | Jalak (Acridotheres javanicus) | 4 | Sario | N 01°26.109' E 124°57.999' | Taman kota | Semak | Bersuara
+Rabu, 06 Agustus 2025 | 11:01 | Perkutut Jawa (Geopelia striata) | 2 | Wenang | N 01°32.841' E 124°51.853' | Pantai | Ranting | Bersuara
+Rabu, 13 Agustus 2025 | 22:16 | Gelatik Jawa (Lonchura oryzivora) | 5 | Sario | N 01°30.265' E 124°46.161' | Pantai | Ranting | Makan
+Selasa, 19 Agustus 2025 | 05:35 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Wenang | N 01°25.193' E 124°49.800' | Semak | Tanah | Makan
+Sabtu, 23 Agustus 2025 | 23:27 | Jalak (Acridotheres javanicus) | 3 | Paal Dua | N 01°39.386' E 124°47.853' | Pantai | Atap | Berinteraksi
+Sabtu, 09 Agustus 2025 | 12:41 | Gelatik Jawa (Lonchura oryzivora) | 2 | Bunaken | N 01°36.232' E 124°59.302' | Taman kota | Kabel | Makan
+Rabu, 27 Agustus 2025 | 07:47 | Tekukur (Spilopelia chinensis) | 1 | Wenang | N 01°29.308' E 124°46.986' | Taman kota | Tanah | Terbang
+Selasa, 19 Agustus 2025 | 09:02 | Jalak (Acridotheres javanicus) | 2 | Paal Dua | N 01°29.416' E 124°58.572' | Taman kota | Semak | Terbang
+Sabtu, 16 Agustus 2025 | 01:02 | Gelatik Jawa (Lonchura oryzivora) | 5 | Paal Dua | N 01°39.605' E 124°49.856' | Perumahan | Pohon | Makan
+Senin, 04 Agustus 2025 | 05:23 | Tekukur (Spilopelia chinensis) | 5 | Paal Dua | N 01°34.423' E 124°56.929' | Pantai | Ranting | Berinteraksi
+Rabu, 20 Agustus 2025 | 15:59 | Gelatik Jawa (Lonchura oryzivora) | 4 | Malalayang | N 01°36.998' E 124°47.227' | Taman kota | Kabel | Bersuara
+Sabtu, 23 Agustus 2025 | 15:50 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Bunaken | N 01°30.127' E 124°49.907' | Kebun | Atap | Makan
+Jumat, 08 Agustus 2025 | 09:18 | Perkutut Jawa (Geopelia striata) | 3 | Bunaken | N 01°32.646' E 124°48.671' | Sawah | Semak | Bertengger
+Rabu, 20 Agustus 2025 | 07:54 | Perkutut Jawa (Geopelia striata) | 2 | Wanea | N 01°25.066' E 124°51.675' | Semak | Pohon | Bersuara
+Jumat, 15 Agustus 2025 | 07:16 | Jalak (Acridotheres javanicus) | 1 | Paal Dua | N 01°27.547' E 124°50.788' | Hutan sekunder | Atap | Makan
+Kamis, 21 Agustus 2025 | 19:56 | Perkutut Jawa (Geopelia striata) | 6 | Wenang | N 01°26.748' E 124°46.597' | Perumahan | Ranting | Bertengger
+Kamis, 21 Agustus 2025 | 10:47 | Jalak (Acridotheres javanicus) | 2 | Sario | N 01°38.382' E 124°51.876' | Pantai | Tanah | Bersuara
+Jumat, 01 Agustus 2025 | 14:49 | Perkutut Jawa (Geopelia striata) | 3 | Wenang | N 01°25.311' E 124°47.300' | Sawah | Kabel | Terbang
+Sabtu, 30 Agustus 2025 | 07:25 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Tikala | N 01°26.367' E 124°55.900' | Kebun | Pohon | Berinteraksi
+Minggu, 17 Agustus 2025 | 17:59 | Jalak (Acridotheres javanicus) | 2 | Bunaken | N 01°39.861' E 124°47.897' | Semak | Atap | Makan
+Jumat, 22 Agustus 2025 | 09:00 | Jalak (Acridotheres javanicus) | 9 | Ringroad | N 01°32.572' E 124°52.210' | Pantai | Atap | Terbang
+Selasa, 19 Agustus 2025 | 04:16 | Perkutut Jawa (Geopelia striata) | 3 | Malalayang | N 01°32.009' E 124°51.595' | Semak | Semak | Bersuara
+Minggu, 10 Agustus 2025 | 13:58 | Gelatik Jawa (Lonchura oryzivora) | 8 | Wanea | N 01°39.087' E 124°52.974' | Sawah | Atap | Bersuara
+Minggu, 03 Agustus 2025 | 07:51 | Gelatik Jawa (Lonchura oryzivora) | 4 | Wanea | N 01°37.984' E 124°58.227' | Pantai | Atap | Terbang
+Kamis, 21 Agustus 2025 | 01:00 | Perkutut Jawa (Geopelia striata) | 2 | Wanea | N 01°32.510' E 124°54.959' | Sawah | Semak | Terbang
+Rabu, 06 Agustus 2025 | 22:52 | Perkutut Jawa (Geopelia striata) | 1 | Malalayang | N 01°34.114' E 124°56.074' | Pantai | Ranting | Berinteraksi
+Senin, 11 Agustus 2025 | 15:16 | Cucak Kutilang (Pycnonotus aurigaster) | 1 | Wenang | N 01°26.107' E 124°57.414' | Hutan sekunder | Ranting | Berinteraksi
+Senin, 11 Agustus 2025 | 20:38 | Tekukur (Spilopelia chinensis) | 4 | Malalayang | N 01°29.857' E 124°50.193' | Semak | Atap | Berinteraksi
+Sabtu, 02 Agustus 2025 | 03:22 | Perkutut Jawa (Geopelia striata) | 4 | Sario | N 01°36.297' E 124°45.992' | Pantai | Tanah | Bersuara
+Selasa, 26 Agustus 2025 | 00:50 | Gelatik Jawa (Lonchura oryzivora) | 1 | Ringroad | N 01°38.728' E 124°55.581' | Kebun | Pohon | Berinteraksi
+Sabtu, 30 Agustus 2025 | 02:40 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Malalayang | N 01°39.730' E 124°45.664' | Sawah | Kabel | Berinteraksi
+Senin, 18 Agustus 2025 | 13:16 | Jalak (Acridotheres javanicus) | 4 | Paal Dua | N 01°25.939' E 124°56.982' | Perumahan | Kabel | Berinteraksi
+Minggu, 03 Agustus 2025 | 05:43 | Gelatik Jawa (Lonchura oryzivora) | 1 | Wanea | N 01°30.942' E 124°55.009' | Hutan sekunder | Semak | Bertengger
+Sabtu, 16 Agustus 2025 | 12:20 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Malalayang | N 01°39.832' E 124°48.077' | Pantai | Semak | Bertengger
+Jumat, 29 Agustus 2025 | 18:39 | Gelatik Jawa (Lonchura oryzivora) | 5 | Wanea | N 01°30.349' E 124°56.476' | Sawah | Tanah | Berinteraksi
+Rabu, 27 Agustus 2025 | 01:56 | Cucak Kutilang (Pycnonotus aurigaster) | 8 | Bunaken | N 01°36.331' E 124°56.597' | Semak | Ranting | Berjalan
+Sabtu, 09 Agustus 2025 | 07:06 | Cucak Kutilang (Pycnonotus aurigaster) | 4 | Paal Dua | N 01°37.706' E 124°46.250' | Kebun | Pohon | Bersuara
+Rabu, 06 Agustus 2025 | 12:47 | Tekukur (Spilopelia chinensis) | 3 | Sario | N 01°36.248' E 124°56.143' | Perumahan | Kabel | Makan
+Senin, 18 Agustus 2025 | 17:53 | Jalak (Acridotheres javanicus) | 2 | Wenang | N 01°32.718' E 124°53.219' | Hutan sekunder | Tanah | Berjalan
+Senin, 25 Agustus 2025 | 17:14 | Perkutut Jawa (Geopelia striata) | 6 | Ringroad | N 01°31.332' E 124°58.955' | Kebun | Semak | Terbang
+Sabtu, 30 Agustus 2025 | 11:26 | Tekukur (Spilopelia chinensis) | 1 | Bunaken | N 01°29.839' E 124°57.274' | Pantai | Pohon | Berinteraksi
+Selasa, 26 Agustus 2025 | 06:04 | Perkutut Jawa (Geopelia striata) | 5 | Tikala | N 01°32.234' E 124°54.774' | Pantai | Semak | Berinteraksi
+Jumat, 29 Agustus 2025 | 15:49 | Jalak (Acridotheres javanicus) | 2 | Wenang | N 01°30.045' E 124°46.206' | Pantai | Pohon | Terbang
+Kamis, 14 Agustus 2025 | 18:07 | Jalak (Acridotheres javanicus) | 9 | Bunaken | N 01°25.884' E 124°57.380' | Semak | Kabel | Bertengger
+Rabu, 20 Agustus 2025 | 16:53 | Cucak Kutilang (Pycnonotus aurigaster) | 8 | Ringroad | N 01°36.791' E 124°57.828' | Perumahan | Atap | Makan
+Kamis, 21 Agustus 2025 | 01:14 | Tekukur (Spilopelia chinensis) | 2 | Paal Dua | N 01°26.920' E 124°49.763' | Semak | Pohon | Terbang
+Kamis, 21 Agustus 2025 | 06:40 | Perkutut Jawa (Geopelia striata) | 2 | Wanea | N 01°32.404' E 124°54.943' | Taman kota | Ranting | Terbang
+Kamis, 07 Agustus 2025 | 21:05 | Perkutut Jawa (Geopelia striata) | 1 | Wanea | N 01°29.438' E 124°49.911' | Sawah | Ranting | Bersuara
+Jumat, 01 Agustus 2025 | 18:44 | Cucak Kutilang (Pycnonotus aurigaster) | 7 | Sario | N 01°26.493' E 124°52.228' | Perumahan | Tanah | Bersuara
+Minggu, 17 Agustus 2025 | 20:50 | Perkutut Jawa (Geopelia striata) | 5 | Paal Dua | N 01°39.664' E 124°46.121' | Semak | Ranting | Makan
+Sabtu, 16 Agustus 2025 | 21:48 | Cucak Kutilang (Pycnonotus aurigaster) | 4 | Tikala | N 01°36.809' E 124°49.186' | Perumahan | Tanah | Bersuara
+Kamis, 07 Agustus 2025 | 16:19 | Cucak Kutilang (Pycnonotus aurigaster) | 2 | Wenang | N 01°37.107' E 124°57.674' | Hutan sekunder | Ranting | Berjalan
+Rabu, 27 Agustus 2025 | 14:26 | Perkutut Jawa (Geopelia striata) | 9 | Sario | N 01°32.059' E 124°51.657' | Taman kota | Kabel | Makan
+Kamis, 28 Agustus 2025 | 00:49 | Perkutut Jawa (Geopelia striata) | 3 | Malalayang | N 01°36.523' E 124°55.218' | Pantai | Tanah | Bertengger
+Senin, 18 Agustus 2025 | 22:11 | Perkutut Jawa (Geopelia striata) | 3 | Ringroad | N 01°31.479' E 124°51.731' | Perumahan | Kabel | Bersuara
+Rabu, 13 Agustus 2025 | 22:29 | Jalak (Acridotheres javanicus) | 4 | Wenang | N 01°34.823' E 124°48.938' | Kebun | Tanah | Terbang
+Senin, 18 Agustus 2025 | 22:59 | Jalak (Acridotheres javanicus) | 9 | Tikala | N 01°25.720' E 124°54.301' | Sawah | Atap | Berinteraksi
+Kamis, 21 Agustus 2025 | 06:22 | Perkutut Jawa (Geopelia striata) | 4 | Malalayang | N 01°32.184' E 124°48.042' | Perumahan | Kabel | Makan
+Kamis, 14 Agustus 2025 | 17:07 | Cucak Kutilang (Pycnonotus aurigaster) | 3 | Paal Dua | N 01°39.374' E 124°46.669' | Sawah | Pohon | Bertengger
+Jumat, 22 Agustus 2025 | 07:34 | Tekukur (Spilopelia chinensis) | 1 | Sario | N 01°27.484' E 124°56.614' | Pantai | Atap | Bersuara
+Rabu, 13 Agustus 2025 | 15:56 | Tekukur (Spilopelia chinensis) | 2 | Tikala | N 01°35.645' E 124°52.871' | Pantai | Semak | Terbang
+Jumat, 29 Agustus 2025 | 01:43 | Gelatik Jawa (Lonchura oryzivora) | 2 | Wanea | N 01°37.066' E 124°50.148' | Hutan sekunder | Atap | Bertengger
+Sabtu, 23 Agustus 2025 | 06:01 | Gelatik Jawa (Lonchura oryzivora) | 1 | Malalayang | N 01°37.367' E 124°57.563' | Sawah | Pohon | Berinteraksi
