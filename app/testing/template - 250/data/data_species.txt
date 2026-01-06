@@ -3,9 +3,10 @@
 # check data_mappoints.txt for more details
 # but the apps will only shown species mappoint datas that you input in data_mappoints
 # name | color | image
+# https://inaturalist-open-data.s3.amazonaws.com/photos/2967053/medium.jpg (Attribution	© Greg Lasley), this is just a sample/testing.
 
 Cucak Kutilang (Pycnonotus aurigaster) | #e41a1c | images/CucakKutilang.jpg
 Perkutut Jawa (Geopelia striata)       | #377eb8 | images/PerkututJawa.jpg
-Jalak (Acridotheres javanicus)         | #4daf4a | images/Jalak.jpg
+Jalak (Acridotheres javanicus)         | #4daf4a | https://inaturalist-open-data.s3.amazonaws.com/photos/2967053/medium.jpg
 Tekukur (Spilopelia chinensis)         | #984ea3 | images/Tekukur.jpg
 Gelatik Jawa (Lonchura oryzivora)      | #a65628 | images/GelatikJawa.jpg
