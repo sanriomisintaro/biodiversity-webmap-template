@@ -1,6 +1,6 @@
 # yourdata.xlsx to data_mappoints.txt
 
-**Use it online:** https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/
+**Use it online:** [https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlxs-to-txt/](https://sanriomisintaro.github.io/biodiversity-webmap-template/tools/xlsx-to-txt/)
 
 Convert an Excel sheet (XLSX/XLS) into the **pipe-separated** text file
 `data_mappoints.txt` used by the web map template.
